@@ -1,0 +1,18 @@
+#!/bin/bash -x
+/usr/libexec/qemu-kvm -monitor stdio \
+-serial none \
+-parallel none \
+-enable-kvm \
+-name "guest" \
+-m 1024 \
+-mem-prealloc \
+-usb \
+-device usb-ehci,id=ehci \
+-machine pc,accel=kvm,kernel_irqchip=on,mem-merge=off \
+-cdrom /home/tjcw/Downloads/$1 \
+-boot order=d \
+-device usb-tablet \
+-vnc :1
+#-device usb-host,hostbus=3,hostaddr=11 \
+#-drive file=/home/tjcw/knoppix.qcow2,format=qcow2,if=none,id=drive-sata0-0-0 \
+#-device virtio-blk-pci,drive=drive-sata0-0-0,id=sata0-0-0 \
