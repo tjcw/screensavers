@@ -30,6 +30,7 @@ menuentry "Debian Live" {
 EOF
 
 touch $HOME/LIVE_BOOT/$1/image/DEBIAN_CUSTOM
+mkdir -p $HOME/LIVE_BOOT/$1/scratch
 grub-mkstandalone \
     --format=x86_64-efi \
     --output=$HOME/LIVE_BOOT/$1/scratch/bootx64.efi \
