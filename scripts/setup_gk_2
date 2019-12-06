@@ -1,6 +1,6 @@
 #!/bin/bash -x
 cp lists/$1.list $HOME/LIVE_BOOT/$1/chroot/tmp/pkgs.list
-cp scripts/target_install_pkgs $HOME/LIVE_BOOT/$1/chroot/tmp/
-sudo chroot $HOME/LIVE_BOOT/$1/chroo /tmp/target_install
+cp scripts/target_install $HOME/LIVE_BOOT/$1/chroot/tmp/
+sudo chroot $HOME/LIVE_BOOT/$1/chroot /tmp/target_install
 rm $HOME/LIVE_BOOT/$1/chroot/tmp/pkgs.list
-rm $HOME/LIVE_BOOT/$1/chroot/tmp/target_install_pkgs
+rm $HOME/LIVE_BOOT/$1/chroot/tmp/target_install
