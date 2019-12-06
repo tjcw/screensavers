@@ -1,6 +1,5 @@
 #!/bin/bash
 mkdir -p $HOME/LIVE_BOOT/$1/chroot
-cp $1.list $HOME/LIVE_BOOT/$1/chroot/
 sudo debootstrap \
     --arch=amd64 \
     --variant=minbase \
