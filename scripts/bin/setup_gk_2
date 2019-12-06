@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash -x
+sudo apt-get install squashfs-tools xorriso grub-pc-bin grub-efi-amd64
 (
 echo "useradd knoppix"
 echo "apt-get -y install --no-install-recommends \
@@ -9,7 +10,7 @@ echo "apt-get -y install --no-install-recommends \
 echo "apt-get clean"
 echo "dpkg-reconfigure lightdm"
 ) | sudo chroot $HOME/LIVE_BOOT/$1/chroot
-sudo mkdir $HOME/LIVE_BOOT/$1/chroot/etc/sddm.conf.d
+sudo mkdir -p $HOME/LIVE_BOOT/$1/chroot/etc/sddm.conf.d
 sudo chmod a+w $HOME/LIVE_BOOT/$1/chroot/etc/sddm.conf.d
 sed 's/#autologin-user=/autologin-user=knoppix/' <$HOME/LIVE_BOOT/$1/chroot/etc/lightdm/lightdm.conf |
   sed 's/#autologin-user-timeout/autologin-user-timeout/' >/tmp/lightdm.conf.1
