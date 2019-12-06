@@ -1,0 +1,5 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 2, June 1991
+
+
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
