@@ -1,4 +1,7 @@
 #!/bin/bash -x
 for p in $(</tmp/pkgs.list)
+do apt-get -d -y install $p
+done
+for p in $(</tmp/pkgs.list)
 do apt-get -y install $p
 done
