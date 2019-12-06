@@ -5,7 +5,7 @@ sudo debootstrap \
     --variant=minbase \
     buster \
     $HOME/LIVE_BOOT/$1/chroot \
-    http://ftp.us.debian.org/debian/
+    http://mirror.ox.ac.uk/debian/
 (
 echo "echo debian-live >/etc/hostname"
 echo "apt-get update"
