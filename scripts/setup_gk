@@ -1,4 +1,4 @@
 #!/bin/bash -x
-scipts/setup_gk_1 $1
-scipts/setup_gk_2 $1
-scipts/setup_gk_3 $1
+scripts/setup_gk_1 $1
+scripts/setup_gk_2 $1
+scripts/setup_gk_3 $1
