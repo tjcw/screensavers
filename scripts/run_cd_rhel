@@ -1,5 +1,5 @@
 #!/bin/bash -x
-qemu-system-x86_64 -monitor stdio \
+/usr/libexec/qemu-kvm -monitor stdio \
 -serial none \
 -parallel none \
 -enable-kvm \
