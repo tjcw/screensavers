@@ -17,6 +17,9 @@ echo "dpkg-reconfigure lightdm"
 
 sudo mkdir -p $HOME/LIVE_BOOT/$1/chroot/etc/sddm.conf.d
 sudo chmod a+w $HOME/LIVE_BOOT/$1/chroot/etc/sddm.conf.d
+sed 's/knoppix:x:/knoppix::/' <$HOME/LIVE_BOOT/$1/chroot/etc/passwd |
+  sed 's/root:x:/root::/' >/tmp/passwd.1
+sudo cp /tmp/lightdm.conf.1 $HOME/LIVE_BOOT/$1/chroot/etc/passwd
 sed 's/#autologin-user=/autologin-user=knoppix/' <$HOME/LIVE_BOOT/$1/chroot/etc/lightdm/lightdm.conf |
   sed 's/#autologin-user-timeout/autologin-user-timeout/' >/tmp/lightdm.conf.1
 sudo cp /tmp/lightdm.conf.1 $HOME/LIVE_BOOT/$1/chroot/etc/lightdm/lightdm.conf
