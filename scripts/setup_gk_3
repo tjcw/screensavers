@@ -1,5 +1,5 @@
 #!/bin/bash -x
-sudo apt-get -y install squashfs-tools xorriso grub-pc-bin grub-efi-amd64 syslinux syslinux-utils
+sudo apt-get -y install squashfs-tools xorriso grub-pc-bin grub-efi-amd64 isolinux syslinux syslinux-utils
 (
 echo "useradd --create-home knoppix"
 echo "groupadd -r autologin"
@@ -89,7 +89,7 @@ xorriso \
         -no-emul-boot \
     -append_partition 2 0xef ${HOME}/LIVE_BOOT/$1/scratch/efiboot.img \
     -output "${HOME}/LIVE_BOOT/$1/debian-custom.iso" \
-    -isohybrid-mbr /usr/lib/syslinux/isohdpfx.bin \
+    -isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin \
     -graft-points \
         "${HOME}/LIVE_BOOT/$1/image" \
         /boot/grub/bios.img=$HOME/LIVE_BOOT/$1/scratch/bios.img \
