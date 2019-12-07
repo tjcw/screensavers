@@ -1,7 +1,7 @@
 #!/bin/bash -x
 sudo apt-get -y install squashfs-tools xorriso grub-pc-bin grub-efi-amd64 syslinux syslinux-utils
 (
-echo "useradd knoppix"
+echo "useradd --create-home knoppix"
 echo "groupadd -r autologin"
 echo "gpasswd -a knoppix autologin"
 echo "apt-get -y install --no-install-recommends \
