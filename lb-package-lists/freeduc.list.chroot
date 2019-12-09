@@ -1593,8 +1593,6 @@ lightdm-gtk-greeter
 lincity
 link-grammar-dictionaries-en
 linux-libc-dev:amd64
-live-boot
-live-boot-initramfs-tools
 lmodern
 localepurge
 locales
