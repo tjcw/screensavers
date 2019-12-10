@@ -297,8 +297,6 @@ grep
 groff
 groff-base
 growisofs
-grub-common
-grub-legacy
 gscanbus
 gsettings-desktop-schemas
 gsfonts
@@ -1951,7 +1949,6 @@ libzvbi0:amd64
 licensecheck
 lightdm
 lightdm-gtk-greeter
-lilo
 lintian
 linux-base
 linux-compiler-gcc-8-x86
