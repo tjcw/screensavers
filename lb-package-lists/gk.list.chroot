@@ -54,7 +54,6 @@ bittorrent
 blt
 bonnie++
 bridge-utils
-brltty
 bsdgames
 bsdmainutils
 bsdutils
@@ -319,7 +318,6 @@ haveged
 hdparm
 hexedit
 hicolor-icon-theme
-hostapd
 hostname
 html2text
 httptunnel
