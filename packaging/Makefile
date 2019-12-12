@@ -1,7 +1,7 @@
-CFLAGS=-O2 -g
+CFLAGS=-O2
 CC=x86_64-w64-mingw32-gcc
 
-all: crunqemu.o crunqemu
+all: crunqemu crunqemu-usb
 
 clean:
-	rm -f crunqeu.o crunqemu
+	rm -f crunqemu crunqemu-usb
