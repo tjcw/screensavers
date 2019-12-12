@@ -209,7 +209,6 @@ fig2dev
 file
 findutils
 finger
-firefox-esr
 flex
 fluxbox
 fontconfig
@@ -300,6 +299,8 @@ grep
 groff
 groff-base
 growisofs
+grub-common
+grub-legacy
 gscanbus
 gsettings-desktop-schemas
 gsfonts
