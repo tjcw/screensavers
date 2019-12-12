@@ -226,7 +226,6 @@ fonts-sil-gentium-basic
 fonts-wine
 foomatic-db
 foomatic-db-engine
-foomatic-filters
 fortune-mod
 fortunes-min
 freeciv
@@ -1937,8 +1936,6 @@ linux-image-4.19.0-6-amd64
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
-live-boot
-live-boot-initramfs-tools
 loadlin
 locales
 lockfile-progs
