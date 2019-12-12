@@ -5,7 +5,7 @@
 #include <string.h>
 
 enum {
-  k_Debug = 1
+  k_Debug = 0
 };
 int main(int argc, char **argv)
 {
@@ -15,7 +15,7 @@ int main(int argc, char **argv)
     printf("argv[1] is %s\n", argv[1]) ;
     fflush(stdout) ;
   }
-  if ( strcmp(argv[1],"/s") == 0 ) 
+  if ( argc > 1 && strcmp(argv[1],"/s") == 0 )
   {
   int cdrc = chdir("C:\\Program Files\\QemuSaver") ;
   if ( k_Debug ) {
