@@ -23,6 +23,7 @@ aspell
 aspell-en
 at
 at-spi2-core
+atmel-firmware
 attr
 audacity
 audacity-data
@@ -54,7 +55,6 @@ bittorrent
 blt
 bonnie++
 bridge-utils
-brltty
 bsdgames
 bsdmainutils
 bsdutils
@@ -69,6 +69,7 @@ bzip2
 bzip2-doc
 ca-certificates
 cabextract
+capiutils
 catdoc
 cdbackup
 cdparanoia
@@ -128,7 +129,6 @@ debsums
 debugedit
 default-mysql-client-core
 default-mysql-server-core
-desktop-file-utils
 devrplay3
 devscripts
 dh-autoreconf
@@ -196,7 +196,6 @@ exfat-utils
 exim4-base
 exim4-config
 exim4-daemon-light
-exo-utils
 expect
 fairymax
 fakeroot
@@ -210,7 +209,6 @@ fig2dev
 file
 findutils
 finger
-firefox-esr
 flex
 fluxbox
 fontconfig
@@ -278,6 +276,9 @@ glibc-doc
 glob2
 glob2-data
 gltron
+glx-alternative-mesa
+glx-alternative-nvidia
+glx-diversions
 gnuchess
 gnuchess-book
 gnupg
@@ -311,15 +312,14 @@ gstreamer1.0-x:amd64
 gtans
 gtk-update-icon-cache
 gtk2-engines-pixbuf:amd64
-gtk2-engines-xfce
 gtkam
 guile-2.2-libs:amd64
 gv
 gzip
-haveged
 hdparm
 hexedit
 hicolor-icon-theme
+hostapd
 hostname
 html2text
 httptunnel
@@ -356,6 +356,7 @@ irssi
 irssi-scripts
 isc-dhcp-client
 isc-dhcp-common
+isdnactivecards
 isdnutils-base
 isdnutils-xtools
 isdnvboxclient
@@ -713,10 +714,6 @@ libevent-2.1-6:amd64
 libexif-gtk5:amd64
 libexif12:amd64
 libexiv2-14:amd64
-libexo-1-0:amd64
-libexo-2-0:amd64
-libexo-common
-libexo-helpers
 libexpat1:amd64
 libexpat1-dev:amd64
 libexporter-tiny-perl
@@ -770,8 +767,6 @@ libfuture-perl
 libfyba0:amd64
 libgail-common:amd64
 libgail18:amd64
-libgarcon-1-0
-libgarcon-common
 libgbm1:amd64
 libgc1c2:amd64
 libgcc-8-dev:amd64
@@ -904,7 +899,6 @@ libilmbase23:amd64
 libimlib2:amd64
 libimobiledevice6:amd64
 libimport-into-perl
-libindicator3-7:amd64
 libinput-bin
 libinput10:amd64
 libio-async-perl
@@ -968,7 +962,6 @@ libkdeui5
 libkdewebkit5
 libkdnssd4
 libkemoticons4
-libkeybinder-3.0-0:amd64
 libkeyutils1:amd64
 libkf5activities5:amd64
 libkf5akonadi-data
@@ -1241,7 +1234,6 @@ liblcms2-utils
 libldap-2.4-2:amd64
 libldap-common
 libldb1:amd64
-liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblinear3:amd64
 liblirc-client0:amd64
@@ -1336,7 +1328,6 @@ libncurses5-dev:amd64
 libncurses6:amd64
 libncursesw5:amd64
 libncursesw6:amd64
-libndp0:amd64
 libneon27-gnutls:amd64
 libnet-daemon-perl
 libnet-dbus-perl
@@ -1364,7 +1355,6 @@ libnghttp2-14:amd64
 libnl-3-200:amd64
 libnl-genl-3-200:amd64
 libnl-route-3-200:amd64
-libnm0:amd64
 libnode64:amd64
 libnotify4:amd64
 libnpth0:amd64
@@ -1690,7 +1680,6 @@ libtask-weaken-perl
 libtasn1-6:amd64
 libtcl8.6:amd64
 libtdb1:amd64
-libteamdctl0:amd64
 libterm-readkey-perl
 libtest-fatal-perl
 libtest-refcount-perl
@@ -1705,7 +1694,6 @@ libthai-data
 libthai0:amd64
 libtheora0:amd64
 libthreadweaver4
-libthunarx-3-0:amd64
 libtidy5deb1:amd64
 libtie-ixhash-perl
 libtie-simple-perl
@@ -1797,8 +1785,6 @@ libwine:amd64
 libwinpr2-2:amd64
 libwmf-bin
 libwmf0.2-7:amd64
-libwnck-common
-libwnck22:amd64
 libwoff1:amd64
 libwrap0:amd64
 libwrap0-dev:amd64
@@ -1867,14 +1853,6 @@ libxdmcp6:amd64
 libxerces-c3.2:amd64
 libxext-dev:amd64
 libxext6:amd64
-libxfce4panel-2.0-4
-libxfce4ui-1-0:amd64
-libxfce4ui-2-0:amd64
-libxfce4ui-common
-libxfce4ui-utils
-libxfce4util-common
-libxfce4util7:amd64
-libxfconf-0-2
 libxfixes-dev:amd64
 libxfixes3:amd64
 libxfont2:amd64
@@ -1893,7 +1871,6 @@ libxinerama1:amd64
 libxkbcommon-x11-0:amd64
 libxkbcommon0:amd64
 libxkbfile1:amd64
-libxklavier16:amd64
 libxm4:amd64
 libxml++2.6-2v5:amd64
 libxml-libxml-perl
@@ -1921,7 +1898,6 @@ libxrandr-dev:amd64
 libxrandr2:amd64
 libxrender-dev:amd64
 libxrender1:amd64
-libxres1:amd64
 libxshmfence-dev:amd64
 libxshmfence1:amd64
 libxslt1.1:amd64
@@ -1947,17 +1923,16 @@ libzstd1:amd64
 libzvbi-common
 libzvbi0:amd64
 licensecheck
-lightdm
-lightdm-gtk-greeter
 lintian
 linux-base
 linux-compiler-gcc-8-x86
 linux-headers-4.19.0-6-amd64
 linux-headers-4.19.0-6-common
 linux-headers-amd64
+linux-image-4.19.0-6-amd64
+linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
-loadlin
 locales
 lockfile-progs
 login
@@ -1997,6 +1972,7 @@ mime-support
 minicom
 mknbi
 modemmanager
+module-assistant
 mount
 mpack
 mpg321
@@ -2026,7 +2002,6 @@ netpbm
 netpipe-tcp
 netpipes
 netris
-network-manager
 neverball
 neverball-common
 neverball-data
@@ -2042,6 +2017,13 @@ notification-daemon
 ntfs-3g
 ntpdate
 ntrack-module-libnl-0
+nvidia-alternative
+nvidia-installer-cleanup
+nvidia-kernel-common
+nvidia-kernel-source
+nvidia-kernel-support
+nvidia-legacy-check
+nvidia-modprobe
 nvtv
 nx-x11-common
 nxagent
@@ -2206,6 +2188,7 @@ qtchooser
 qtcore4-l10n
 qttranslations5-l10n
 qtwayland5:amd64
+quilt
 rafkill
 rafkill-data
 rake
@@ -2297,8 +2280,6 @@ tdb-tools
 testdisk
 tftp
 tftpd-hpa
-thunar
-thunar-data
 tidy
 timelimit
 timgm6mb-soundfont
@@ -2324,6 +2305,7 @@ udisks2
 unifont
 unp
 unzip
+update-glx
 update-inetd
 upower
 urlview
@@ -2388,7 +2370,6 @@ wine64
 wipe
 wireless-tools
 wodim
-wpagui
 wpasupplicant
 wvdial
 x11-apps
@@ -2418,15 +2399,6 @@ xdelta
 xdg-user-dirs
 xdg-utils
 xdm
-xfce4
-xfce4-appfinder
-xfce4-panel
-xfce4-pulseaudio-plugin:amd64
-xfce4-session
-xfce4-settings
-xfconf
-xfdesktop4
-xfdesktop4-data
 xfig
 xfig-libs
 xfonts-100dpi
@@ -2444,7 +2416,6 @@ xfonts-utils
 xfonts-x3270-misc
 xfsdump
 xfsprogs
-xfwm4
 xgalaga
 xine-ui
 xinit
@@ -2462,6 +2433,7 @@ xscreensaver
 xscreensaver-data
 xorg
 xskat
+xsnow
 xtel
 xterm
 xtrans-dev
