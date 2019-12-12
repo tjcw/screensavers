@@ -5,7 +5,7 @@
 #include <string.h>
 
 enum {
-  k_Debug = 0
+  k_Debug = 1
 };
 int main(int argc, char **argv)
 {
