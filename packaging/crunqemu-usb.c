@@ -40,6 +40,7 @@ int main(int argc, char **argv)
   if ( k_Debug ) {
     printf("system returns %d errno=%d\n", sysrc, errno) ;
     fflush(stdout) ;
+    sleep(10) ;
   }
   }
   return 0 ;
