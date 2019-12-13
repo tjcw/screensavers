@@ -5,7 +5,7 @@
 #include <string.h>
 
 enum {
-  k_Debug = 0
+  k_Debug = 1
 };
 int main(int argc, char **argv)
 {
@@ -40,6 +40,7 @@ int main(int argc, char **argv)
   if ( k_Debug ) {
     printf("system returns %d errno=%d\n", sysrc, errno) ;
     fflush(stdout) ;
+    sleep(10) ;
   }
   }
   return 0 ;
