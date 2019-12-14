@@ -316,6 +316,7 @@ gtkam
 guile-2.2-libs:amd64
 gv
 gzip
+haveged
 hdparm
 hexedit
 hicolor-icon-theme
