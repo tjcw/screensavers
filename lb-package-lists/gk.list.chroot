@@ -51,7 +51,6 @@ binutils-common:amd64
 binutils-dev
 binutils-x86-64-linux-gnu
 bison
-bittorrent
 blt
 bonnie++
 bridge-utils
@@ -92,18 +91,6 @@ crossfire-common
 crossfire-maps
 crossfire-server
 csh
-cups
-cups-browsed
-cups-bsd
-cups-client
-cups-common
-cups-core-drivers
-cups-daemon
-cups-filters
-cups-filters-core-drivers
-cups-ipp-utils
-cups-ppdc
-cups-server-common
 curl
 cvs
 dante-client
@@ -322,7 +309,6 @@ hexedit
 hicolor-icon-theme
 hostname
 html2text
-httptunnel
 hunspell-en-us
 hunt
 i810switch
@@ -347,7 +333,6 @@ inputattach
 install-info
 intel-media-va-driver:amd64
 intltool-debian
-ipppd
 iproute2
 iptables
 iptraf
@@ -2034,8 +2019,6 @@ odbcinst1debian2:amd64
 opensc
 opensc-pkcs11:amd64
 openssh-client
-openssh-server
-openssh-sftp-server
 openssl
 openvpn
 os-prober
@@ -2074,12 +2057,6 @@ poppler-data
 poppler-utils
 poster
 powermgmt-base
-ppp
-pppconfig
-pppdcapiplugin
-pppoe
-pppoeconf
-pptp-linux
 printer-driver-all
 printer-driver-brlaser
 printer-driver-c2050
@@ -2222,12 +2199,6 @@ ruby-test-unit
 ruby-xmlrpc
 ruby2.5
 rubygems-integration
-samba
-samba-common
-samba-common-bin
-samba-dsdb-modules:amd64
-samba-libs:amd64
-samba-vfs-modules:amd64
 sane
 sane-utils
 sash
@@ -2251,9 +2222,6 @@ sonnet-plugins
 sound-theme-freedesktop
 sox
 speex
-squid
-squid-common
-squid-langpack
 ssh
 sshfs
 ssl-cert
