@@ -18,7 +18,6 @@ apt-show-versions
 apt-utils
 arch-test
 arj
-arpwatch
 aspell
 aspell-en
 at
@@ -34,7 +33,6 @@ autofs
 automake
 autopoint
 autotools-dev
-avahi-daemon
 baloo-kf5
 base-files
 base-passwd
@@ -42,9 +40,7 @@ bash
 bb
 bc
 bin86
-bind9
 bind9-host
-bind9utils
 bing
 binutils
 binutils-common:amd64
@@ -68,7 +64,6 @@ bzip2
 bzip2-doc
 ca-certificates
 cabextract
-capiutils
 catdoc
 cdbackup
 cdparanoia
@@ -128,7 +123,6 @@ diffstat
 diffutils
 ding
 dirmngr
-distcc
 distro-info-data
 dkms
 dlint
@@ -180,9 +174,6 @@ evemu-tools
 evtest
 exfat-fuse
 exfat-utils
-exim4-base
-exim4-config
-exim4-daemon-light
 expect
 fairymax
 fakeroot
@@ -191,7 +182,6 @@ fbset
 fdisk
 fdutils
 feh
-fetchmail
 fig2dev
 file
 findutils
@@ -281,7 +271,6 @@ gpgconf
 gpgsm
 gpgv
 gphoto2
-gpm
 grep
 groff
 groff-base
@@ -290,7 +279,6 @@ gscanbus
 gsettings-desktop-schemas
 gsfonts
 gsfonts-x11
-gsm-utils
 gstreamer1.0-alsa:amd64
 gstreamer1.0-plugins-base:amd64
 gstreamer1.0-plugins-good:amd64
@@ -341,10 +329,6 @@ irssi
 irssi-scripts
 isc-dhcp-client
 isc-dhcp-common
-isdnactivecards
-isdnutils-base
-isdnutils-xtools
-isdnvboxclient
 iso-codes
 jackd
 jackd2
@@ -426,7 +410,6 @@ konsolekalendar
 kpackagelauncherqml
 kpackagetool5
 kpart5-kompare
-kppp
 krb5-locales
 krdc
 kreversi
@@ -617,9 +600,6 @@ libconvert-binhex-perl
 libcroco3:amd64
 libcryptsetup12:amd64
 libcrystalhd3:amd64
-libcups2:amd64
-libcupsfilters1:amd64
-libcupsimage2:amd64
 libcurl3-gnutls:amd64
 libcurl4:amd64
 libdaemon0:amd64
@@ -1956,7 +1936,6 @@ mikmod
 mime-support
 minicom
 mknbi
-modemmanager
 module-assistant
 mount
 mpack
@@ -1990,10 +1969,7 @@ netris
 neverball
 neverball-common
 neverball-data
-nfs-common
-nfs-kernel-server
 nftables
-nis
 nmap
 nmap-common
 nodejs
@@ -2020,7 +1996,6 @@ opensc
 opensc-pkcs11:amd64
 openssh-client
 openssl
-openvpn
 os-prober
 oss-compat
 oxygen-icon-theme
@@ -2182,7 +2157,6 @@ rpm
 rpm-common
 rpm2cpio
 rsync
-rsyslog
 rtkit
 ruby
 ruby-debian
@@ -2215,7 +2189,6 @@ shared-mime-info
 sharutils
 signon-plugin-oauth2
 slrn
-smartmontools
 smbclient
 smpeg-plaympeg
 sonnet-plugins
@@ -2247,7 +2220,6 @@ tcpdump
 tdb-tools
 testdisk
 tftp
-tftpd-hpa
 tidy
 timelimit
 timgm6mb-soundfont
@@ -2269,7 +2241,6 @@ txt2regex
 tzdata
 ucf
 udev
-udisks2
 unifont
 unp
 unzip
@@ -2338,7 +2309,6 @@ wine64
 wipe
 wireless-tools
 wodim
-wpasupplicant
 wvdial
 x11-apps
 x11-common
