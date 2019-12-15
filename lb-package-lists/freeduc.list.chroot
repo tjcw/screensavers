@@ -27,8 +27,6 @@ autoconf
 autofs
 automake
 autotools-dev
-avahi-daemon
-base-files
 base-passwd
 bash
 bc
@@ -308,7 +306,6 @@ gpgconf
 gpgsm
 gpgv
 gphoto2
-gpm
 grace
 graphviz
 grass
@@ -1646,8 +1643,6 @@ netpbm
 netpipe-tcp
 netpipes
 network-manager
-nfs-common
-nfs-kernel-server
 node-normalize.css
 notification-daemon
 nscd
@@ -1941,7 +1936,6 @@ twm
 tzdata
 ucf
 udev
-udisks2
 units-filter
 unzip
 update-inetd
