@@ -11,7 +11,7 @@ fr2.scr: crunqemu-usb
 
 gk2.scr: crunqemu-usb
 	cp crunqemu-usb.exe gk2.scr
-	$(STRIP) fgk.scr
+	$(STRIP) gk2.scr
 
 clean:
 	rm -f crunqemu crunqemu-usb fr2.scr gk2.scr
