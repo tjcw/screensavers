@@ -1642,10 +1642,8 @@ netcat-traditional
 netpbm
 netpipe-tcp
 netpipes
-network-manager
 node-normalize.css
 notification-daemon
-nscd
 ntfs-3g
 ntrack-module-libnl-0
 ocl-icd-libopencl1:amd64
@@ -1883,7 +1881,6 @@ ssh
 ssl-cert
 statserial
 stk
-stunnel4
 sudo
 sunclock
 sunclock-maps
@@ -2020,6 +2017,7 @@ xplanet-images
 xscavenger
 xscreensaver
 xscreensaver-data
+xscreensaver-data-extra
 xorg
 xterm
 xtv
