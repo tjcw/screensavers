@@ -2,7 +2,7 @@
 Architecture: amd64
 Archive-Areas: main
 Distribution: buster
-Mirror-Bootstrap: http://ftp.uk.debian.org/debian/
+Mirror-Bootstrap: http://ftp.us.debian.org/debian/
 
 [FIXME]
 Configuration-Version: 20161115
