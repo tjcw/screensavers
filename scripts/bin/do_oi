@@ -1,10 +1,10 @@
 #!/bin/bash -x
 lb clean
 lb config --distribution=buster
-cp ${SUDO_USER}/workspace/screensavers/lb-package-lists/$1.list.chroot \
+cp /home/${SUDO_USER}/workspace/screensavers/lb-package-lists/$1.list.chroot \
    config/package_list/pdesktop.list.chroot
-cp ${SUDO_USER}/workspace/screensavers/files/menu.cfg \
+cp /home/${SUDO_USER}/workspace/screensavers/files/menu.cfg \
    /usr/share/live/build/bootloaders/isolinux/menu.cfg
-cp ${SUDO_USER}/workspace/screensavers/files/system \
+cp /home/${SUDO_USER}/workspace/screensavers/files/system \
    config/system
 lb build 
