@@ -21,8 +21,8 @@ LB_PARENT_MIRROR_BOOTSTRAP="http://ftp.us.debian.org/debian/"
 LB_PARENT_MIRROR_CHROOT="http://ftp.us.debian.org/debian/"
 
 # $LB_PARENT_MIRROR_CHROOT_SECURITY: set security parent mirror to fetch packages from
-# (Default: http://ftp.us.debian.org/debian-security/)
-LB_PARENT_MIRROR_CHROOT_SECURITY="http://ftp.us.debian.org/debian-security/"
+# (Default: http://deb.debian.org/debian-security/)
+LB_PARENT_MIRROR_CHROOT_SECURITY="http://deb.debian.org/debian-security/"
 
 # $LB_PARENT_MIRROR_BINARY: set parent mirror which ends up in the image
 # (Default: https://ftp.us.debian.org/debian)
@@ -45,8 +45,8 @@ LB_MIRROR_BOOTSTRAP="http://ftp.us.debian.org/debian/"
 LB_MIRROR_CHROOT="http://ftp.us.debian.org/debian/"
 
 # $LB_MIRROR_CHROOT_SECURITY: set security mirror to fetch packages from
-# (Default: http://ftp.us.debian.org/debian-security/)
-LB_MIRROR_CHROOT_SECURITY="http://ftp.us.debian.org/debian-security/"
+# (Default: http://deb.debian.org/debian-security/)
+LB_MIRROR_CHROOT_SECURITY="http://deb.debian.org/debian-security/"
 
 # $LB_MIRROR_BINARY: set mirror which ends up in the image
 # (Default: https://ftp.us.debian.org/debian)
