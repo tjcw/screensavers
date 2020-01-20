@@ -7,6 +7,6 @@ cp /home/${SUDO_USER}/workspace/screensavers/files/isolinux.cfg \
    /usr/share/live/build/bootloaders/isolinux/isolinux.cfg
 cp /home/${SUDO_USER}/workspace/screensavers/files/system \
    config/system
-cp /home/${SUDO_USER}/workspace/screensavers/files/bootstrap \
-   config/bootstrap
+#cp /home/${SUDO_USER}/workspace/screensavers/files/bootstrap \
+#   config/bootstrap
 lb build 
