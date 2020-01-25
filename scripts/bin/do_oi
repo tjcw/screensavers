@@ -9,4 +9,8 @@ cp /home/${SUDO_USER}/workspace/screensavers/files/system \
    config/system
 #cp /home/${SUDO_USER}/workspace/screensavers/files/bootstrap \
 #   config/bootstrap
-lb build 
+lb build
+echo "Build again"
+lb build
+echo "Build 3"
+lb build
