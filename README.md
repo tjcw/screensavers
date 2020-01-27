@@ -13,13 +13,22 @@ hosting machine; I needed to use a CentOS 8 host because most linux
 distributions nowadays do not recognise the ancient ciphers which were in
 use then.
 
-Then I wrote a 'phase 1' and 'phase 2' script; phase 1 is to set up a
-basic Debian system, phase 2 is to make a Live Linux iso; and between these
-scripts I ran 
-for p in $(<p.list); do apt-get -y install $p 2>&1 ; done |tee install.log
-to install as much as now is in Debian of the code that was present then.
+Then I found the open-infrastructure-system-build package. I wrote a
+script scripts/bin/do_oi to build a suitable Live Linux iso. To run this,
+you should 'git clone' this repo under ~/workspace ; then go to an
+empty directory, and run this scripts as
+  sudo ~/workspace/screensavers/scripts/bin/do_oi freeduc
 
 This results in an 'iso' which can be run in a VM or booted on a real
 system. But I wanted to run it as a screensaver for Windows, so I have
 a further set of tools which packages it with qemu on a Windows system.
 
+To use these tools, go to a Microsoft Windows system, install cygwin
+with the 'mingw' compilers (86_64-w64-mingw32-gcc) and install 
+inno setup. With these and the contents of the 'packaging' directory
+you can build a screensaver wrapper for 'qemu', and a package for
+installation in the usual way for Windows.
+
+Then go back to Linux, set up a file tree matching what you see in
+the reference installation package, and use 'zip' to pack it all into
+one file. Then take this to your Windows system and test it.
