@@ -12,7 +12,9 @@ cp /home/${SUDO_USER}/workspace/screensavers/files/build \
 #cp /home/${SUDO_USER}/workspace/screensavers/files/bootstrap \
 #   config/bootstrap
 mkdir -p config/hooks
-cp -r /home/${SUDO_USER}/workspace/screensavers/hooks/$1/. config/hooks/ 
+cp -r /home/${SUDO_USER}/workspace/screensavers/hooks/$1/. config/hooks/
+mkdir -p config/content
+cp -r /home/${SUDO_USER}/workspace/screensavers/content/$1/. config/content/
 for i in $(seq 1 10)
 do
    echo "Build pass $i"
