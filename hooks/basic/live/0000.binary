@@ -1,4 +1,0 @@
-#!/bin/bash -x
-echo "--- Running hook ---"
-pwd
-echo "ok" >okfile
