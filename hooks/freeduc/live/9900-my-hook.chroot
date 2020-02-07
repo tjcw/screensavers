@@ -3,5 +3,5 @@ echo "--- Running hook ---"
 pwd
 echo "ok" >okfile
 mount
-cp -pr live-build/config/content/freeduc/. .
+cp -pr live-build/config/content/. .
 
