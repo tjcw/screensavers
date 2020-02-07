@@ -1,4 +1,5 @@
 #!/bin/bash -x
+PATH=/sbin:$PATH
 lb clean
 lb config --distribution=buster
 cp /home/${SUDO_USER}/workspace/screensavers/lb-package-lists/$1.list.chroot \
@@ -11,10 +12,10 @@ cp /home/${SUDO_USER}/workspace/screensavers/files/build \
    config/build
 #cp /home/${SUDO_USER}/workspace/screensavers/files/bootstrap \
 #   config/bootstrap
-mkdir -p config/hooks
-cp -r /home/${SUDO_USER}/workspace/screensavers/hooks/$1/. config/hooks/
-mkdir -p config/content
-cp -r /home/${SUDO_USER}/workspace/screensavers/content/$1/. config/content/
+#mkdir -p config/hooks
+#cp -r /home/${SUDO_USER}/workspace/screensavers/hooks/$1/. config/hooks/
+#mkdir -p config/content
+#cp -r /home/${SUDO_USER}/workspace/screensavers/content/$1/. config/content/
 for i in $(seq 1 10)
 do
    echo "Build pass $i"
