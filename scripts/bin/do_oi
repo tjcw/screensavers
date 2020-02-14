@@ -4,6 +4,8 @@ lb clean
 lb config --distribution=buster
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
    config/package-lists/desktop.list.chroot
+cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/chroot_devpts \
+   /usr/lib/live/build/chroot_devpts
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/isolinux.cfg \
    /usr/share/live/build/bootloaders/isolinux/isolinux.cfg
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/system \
