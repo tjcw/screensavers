@@ -9,7 +9,7 @@ qemu-system-x86_64 -monitor stdio \
 -usb \
 -device usb-ehci,id=ehci \
 -machine pc,accel=kvm,kernel_irqchip=on,mem-merge=off \
--cdrom $1 \
+-cdrom /home/tjcw/Downloads/$1 \
 -boot order=d \
 -device usb-tablet
 #-vnc :1
