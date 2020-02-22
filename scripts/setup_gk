@@ -1,4 +1,0 @@
-#!/bin/bash -x
-scripts/setup_gk_1 $1
-scripts/setup_gk_2 $1
-scripts/setup_gk_3 $1
