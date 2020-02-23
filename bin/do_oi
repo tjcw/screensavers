@@ -2,8 +2,8 @@
 PATH=/sbin:$PATH
 lb clean
 lb config --distribution=$2
-cp /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
-   config/package-lists/desktop.list.chroot
+awk '{ if ( $1 != "#" ) print; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
+   > config/package-lists/desktop.list.chroot
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/chroot_devpts \
    /usr/lib/live/build/chroot_devpts
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/isolinux.cfg \
