@@ -1,7 +1,7 @@
 #!/bin/bash 
 #mkdir qemu
 #cp -r "/cygdrive/c/Program Files/qemu/." qemu
-cat skeleton.iss
+cat skeleton-open.iss
 cd qemu
 find . -type f -print |
 while read name
