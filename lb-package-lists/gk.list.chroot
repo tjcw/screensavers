@@ -303,8 +303,8 @@ i810switch
 i965-va-driver:amd64
 ibod
 ibverbs-providers:amd64
-icewm
-icewm-common
+# icewm
+# icewm-common
 icoutils
 ieee-data
 ifupdown
@@ -1898,6 +1898,8 @@ linux-image-4.19.0-6-amd64
 linux-image-amd64
 linux-kbuild-4.19
 linux-libc-dev:amd64
+lightdm #
+lightdm-gtk-greeter #
 locales
 lockfile-progs
 login
@@ -2336,7 +2338,13 @@ xchat-common
 xdelta
 xdg-user-dirs
 xdg-utils
-xdm
+# xdm 
+xfce4 #
+xfce4-appfinder #
+xfce4-panel #
+xfce4-pulseaudio-plugin:amd64 #
+xfce4-session #
+xfce4-settings #
 xfig
 xfig-libs
 xfonts-100dpi

@@ -3,5 +3,5 @@ echo "--- Running hook ---"
 pwd
 echo "ok" >okfile
 mount
-cp live-build/config/content/my-content myfile
+cp -pr live-build/config/content/. .
 
