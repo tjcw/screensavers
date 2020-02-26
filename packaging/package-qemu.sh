@@ -6,7 +6,7 @@ cd qemu
 find . -type f -print |
 while read name
 do
-  echo "Source: \"{src}\\qemu\\${name}\"; DestDir: \"{app}\\${name}\"; Flags: ignoreversion external"
+  echo "Source: \"{src}\\qemu\\${name}\"; DestDir: \"{app}\\${name%/*}\"; Flags: ignoreversion external"
 done
 echo "Source: \"{src}\\extras\\freeduc-cd-1.4.1.iso\"; DestDir: \"{app}\\..\\QemuSaver\"; Flags: ignoreversion external"
 echo "Source: \"{src}\\extras\\freeduc-cd-1.4.1.scr\"; DestDir: \"{sys}\"; Flags: ignoreversion external"
