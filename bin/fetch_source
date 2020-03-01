@@ -2,7 +2,11 @@
 # Fetch the qemu source
 git clone git://repo.or.cz/qemu/ar7.git
 # Fetch the Debian source
-for x in $(seq 14)
+iso_dir=http://mirrorservice.org/sites/cdimage.debian.org/debian-cd/current/source/iso-dvd
+wget ${iso_dir}/SHA512SUMS
+while read sha512 name
 do
-  wget http://mirrorservice.org/sites/cdimage.debian.org/debian-cd/current/source/iso-dvd/debian-10.3.0-source-DVD-${x}.iso
+  wget ${iso_dir}/${name}
 done
+# Check the checksums
+sha512sum -c SHA512SUMS
