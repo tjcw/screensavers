@@ -7,6 +7,6 @@ wget ${iso_dir}/SHA512SUMS
 while read sha512 name
 do
   wget ${iso_dir}/${name}
-done
+done <SHA512SUMS
 # Check the checksums
 sha512sum -c SHA512SUMS
