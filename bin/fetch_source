@@ -9,4 +9,4 @@ do
   wget ${iso_dir}/${name}
 done <SHA512SUMS
 # Check the checksums
-sha512sum -b -c SHA512SUMS
+sha512sum -c SHA512SUMS
