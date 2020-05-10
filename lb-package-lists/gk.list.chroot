@@ -1255,7 +1255,7 @@ libmbedx509-0:amd64
 libmbim-glib4:amd64
 libmbim-proxy
 libmetis5:amd64
-libmicrodns0:amd64
+# libmicrodns0:amd64
 libmikmod3:amd64
 libmime-tools-perl
 libminizip1:amd64

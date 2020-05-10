@@ -1047,7 +1047,7 @@ libmariadb3:amd64
 libmatroska6v5:amd64
 libmetis5:amd64
 libmhash2:amd64
-libmicrodns0:amd64
+# libmicrodns0:amd64
 libmikmod3:amd64
 libminizip1:amd64
 libmm-glib0:amd64
