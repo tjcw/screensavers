@@ -517,7 +517,7 @@ libcdk5nc6:amd64
 libcdparanoia0:amd64
 libcdt5
 libcfitsio-bin
-libcfitsio7:amd64
+# libcfitsio7:amd64
 libcgraph6
 libchamplain-0.12-0:amd64
 libchamplain-gtk-0.12-0:amd64
@@ -529,7 +529,7 @@ libclutter-1.0-common
 libclutter-gtk-1.0-0:amd64
 libcoarrays-dev:amd64
 libcoarrays-openmpi-dev:amd64
-libcodec2-0.8.1:amd64
+# libcodec2-0.8.1:amd64
 libcogl-common
 libcogl-pango20:amd64
 libcogl-path20:amd64
@@ -1430,7 +1430,7 @@ liburiparser1:amd64
 # libusageenvironment3:amd64
 libusb-0.1-4:amd64
 libusb-1.0-0:amd64
-libusbmuxd4:amd64
+# libusbmuxd4:amd64
 libutempter0:amd64
 libuuid-perl
 libuuid1:amd64
@@ -1767,7 +1767,7 @@ python-six
 # python-talloc:amd64
 # python-tdb
 python-tk
-python-tz
+# python-tz
 # python-wxgtk3.0
 # python-wxversion
 python2
@@ -1811,7 +1811,7 @@ python3-pytest-remotedata
 python3-scipy
 python3-sip
 python3-six
-python3.7
+# python3.7
 # python3.7-minimal
 qdbus
 qjackctl
