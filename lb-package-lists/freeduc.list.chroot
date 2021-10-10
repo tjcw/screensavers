@@ -54,7 +54,7 @@ console-data
 coreutils
 cpio
 cpp
-cpp-8
+# cpp-8
 cron
 csh
 csound
@@ -162,7 +162,7 @@ ed
 eject
 elvis-tiny
 emacsen-common
-enchant
+# enchant
 epstool
 evince
 evince-common
@@ -242,8 +242,8 @@ gap-table-of-marks
 gap-transgrp
 gawk
 gcc
-gcc-8
-gcc-8-base:amd64
+# gcc-8
+# gcc-8-base:amd64
 gcompris
 gcompris-qt
 gcompris-qt-data
@@ -260,7 +260,7 @@ geomview
 gettext
 gettext-base
 gfortran
-gfortran-8
+# gfortran-8
 gftp
 gftp-common
 gftp-gtk
@@ -327,7 +327,7 @@ gstreamer1.0-pulseaudio:amd64
 gstreamer1.0-x:amd64
 gtans
 gtk-update-icon-cache
-gtk2-engines-xfce
+# gtk2-engines-xfce
 gtkam
 gtklp
 gtkmorph
@@ -370,15 +370,15 @@ jackd2-firewire
 java-common
 javascript-common
 kali
-kate-data
-katepart
+# kate-data
+# katepart
 kbd
-kde-runtime
-kde-runtime-data
-kdelibs-bin
-kdelibs5-data
-kdelibs5-plugins
-kdoctools
+# kde-runtime
+# kde-runtime-data
+# kdelibs-bin
+# kdelibs5-data
+# kdelibs5-plugins
+# kdoctools
 kdoctools5
 keditbookmarks
 keyboard-configuration
@@ -390,7 +390,7 @@ klibc-utils
 kmod
 kpackagelauncherqml
 kpackagetool5
-kppp
+# kppp
 krb5-locales
 kstars
 kstars-data
@@ -416,12 +416,12 @@ libapr1:amd64
 libaprutil1:amd64
 libaprutil1-dbd-sqlite3:amd64
 libaprutil1-ldap:amd64
-libapt-inst2.0:amd64
-libapt-pkg5.0:amd64
+# libapt-inst2.0:amd64
+# libapt-pkg5.0:amd64
 libarchive13:amd64
 libargon2-1:amd64
 libaribb24-0:amd64
-libarmadillo9
+# libarmadillo9
 libarpack2:amd64
 libart-2.0-2:amd64
 libasan5:amd64
@@ -441,7 +441,7 @@ libatlas3-base:amd64
 libatm1:amd64
 libatomic1:amd64
 libatspi2.0-0:amd64
-libattica0.4:amd64
+# libattica0.4:amd64
 libattr1:amd64
 libaudio-scrobbler-perl
 libaudio2:amd64
@@ -462,7 +462,7 @@ libavformat58:amd64
 libavresample4:amd64
 libavutil56:amd64
 libbabl-0.1-0:amd64
-libbasicusageenvironment1:amd64
+# libbasicusageenvironment1:amd64
 libbdplus0:amd64
 libbind9-161:amd64
 libbinutils:amd64
@@ -478,15 +478,15 @@ libblockdev-utils2:amd64
 libblockdev2:amd64
 libbluetooth3:amd64
 libbluray2:amd64
-libboost-atomic1.67.0:amd64
-libboost-chrono1.67.0:amd64
-libboost-date-time1.67.0:amd64
-libboost-filesystem1.67.0:amd64
-libboost-iostreams1.67.0:amd64
-libboost-program-options1.67.0:amd64
-libboost-regex1.67.0:amd64
-libboost-system1.67.0:amd64
-libboost-thread1.67.0:amd64
+# libboost-atomic1.67.0:amd64
+# libboost-chrono1.67.0:amd64
+# libboost-date-time1.67.0:amd64
+# libboost-filesystem1.67.0:amd64
+# libboost-iostreams1.67.0:amd64
+# libboost-program-options1.67.0:amd64
+# libboost-regex1.67.0:amd64
+# libboost-system1.67.0:amd64
+# libboost-thread1.67.0:amd64
 libbrotli1:amd64
 libbs2b0:amd64
 libbsd0:amd64
@@ -542,9 +542,9 @@ libcomerr2:amd64
 libcompfaceg1
 libconfig++9v5:amd64
 libconfig-inifiles-perl
-libcroco3:amd64
+# libcroco3:amd64
 libcryptsetup12:amd64
-libcrystalhd3:amd64
+# libcrystalhd3:amd64
 libcsound64-6.0
 libcups2:amd64
 libcupsfilters1:amd64
@@ -553,7 +553,7 @@ libcurl3-gnutls:amd64
 libcurl4:amd64
 libcxsparse3:amd64
 libdaemon0:amd64
-libdap25:amd64
+# libdap25:amd64
 libdapclient6v5:amd64
 libdapserver7v5:amd64
 libdata-dump-perl
@@ -563,9 +563,9 @@ libdb1-compat
 libdb5.3:amd64
 libdbus-1-3:amd64
 libdbus-glib-1-2:amd64
-libdbusmenu-qt2:amd64
+# libdbusmenu-qt2:amd64
 libdbusmenu-qt5-2:amd64
-libdc1394-22:amd64
+# libdc1394-22:amd64
 libdca0:amd64
 libdconf1:amd64
 libde265-0:amd64
@@ -574,9 +574,9 @@ libdevmapper1.02.1:amd64
 libdjvulibre-text
 libdjvulibre21:amd64
 libdlrestrictions1
-libdns-export1104
-libdns1104:amd64
-libdouble-conversion1:amd64
+# libdns-export1104
+# libdns1104:amd64
+# libdouble-conversion1:amd64
 libdpkg-perl
 libdrm-amdgpu1:amd64
 libdrm-common
@@ -587,14 +587,14 @@ libdrm2:amd64
 libdv4:amd64
 libdvbpsi10:amd64
 libdvdnav4:amd64
-libdvdread4:amd64
+# libdvdread4:amd64
 libebackend-1.2-10:amd64
-libebml4v5:amd64
-libebook-1.2-19:amd64
-libebook-contacts-1.2-2:amd64
-libecal-1.2-19:amd64
-libedata-book-1.2-25:amd64
-libedataserver-1.2-23:amd64
+# libebml4v5:amd64
+# libebook-1.2-19:amd64
+# libebook-contacts-1.2-2:amd64
+# libecal-1.2-19:amd64
+# libedata-book-1.2-25:amd64
+# libedataserver-1.2-23:amd64
 libedit2:amd64
 libefiboot1:amd64
 libefivar1:amd64
@@ -602,25 +602,25 @@ libegl-mesa0:amd64
 libegl1:amd64
 libelf1:amd64
 libemf1:amd64
-libenchant1c2a:amd64
+# libenchant1c2a:amd64
 libencode-locale-perl
 libepoxy0:amd64
 libepsilon1:amd64
-libept1.5.0:amd64
+# libept1.5.0:amd64
 liberfa1:amd64
 libevdev2:amd64
 libevdocument3-4:amd64
-libevent-2.1-6:amd64
-libevent-core-2.1-6:amd64
-libevent-pthreads-2.1-6:amd64
+# libevent-2.1-6:amd64
+# libevent-core-2.1-6:amd64
+# libevent-pthreads-2.1-6:amd64
 libevview3-3:amd64
 libexif-gtk5:amd64
 libexif12:amd64
-libexiv2-14:amd64
-libexo-1-0:amd64
+# libexiv2-14:amd64
+# libexo-1-0:amd64
 libexo-2-0:amd64
 libexo-common
-libexo-helpers
+# libexo-helpers
 libexpat1:amd64
 libext2fs2:amd64
 libfaad2:amd64
@@ -630,7 +630,7 @@ libfam0:amd64
 libfam0c102
 libfdisk1:amd64
 libffado2:amd64
-libffi6:amd64
+# libffi6:amd64
 libfftw3-double3:amd64
 libfftw3-single3:amd64
 libfile-basedir-perl
@@ -645,7 +645,7 @@ libflite1:amd64
 libfltk-gl1.3:amd64
 libfltk1.1:amd64
 libfltk1.3:amd64
-libfluidsynth1:amd64
+# libfluidsynth1:amd64
 libfont-afm-perl
 libfontconfig1:amd64
 libfontembed1:amd64
@@ -662,8 +662,8 @@ libgail18:amd64
 libgarcon-1-0
 libgarcon-common
 libgbm1:amd64
-libgc1c2:amd64
-libgcc-8-dev:amd64
+# libgc1c2:amd64
+# libgcc-8-dev:amd64
 libgcc1:amd64
 libgck-1-0:amd64
 libgconf-2-4:amd64
@@ -671,7 +671,7 @@ libgcr-base-3-1:amd64
 libgcr-ui-3-1:amd64
 libgcrypt20:amd64
 libgd3:amd64
-libgdal20
+# libgdal20
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
@@ -683,11 +683,11 @@ libgegl-0.4-0:amd64
 libgegl-common
 libgeoip1:amd64
 libgeomview-1.9.5
-libgeos-3.7.1:amd64
+# libgeos-3.7.1:amd64
 libgeos-c1v5:amd64
-libgeotiff2:amd64
+# libgeotiff2:amd64
 libgexiv2-2:amd64
-libgfortran-8-dev:amd64
+# libgfortran-8-dev:amd64
 libgfortran5:amd64
 libgif7:amd64
 libgimp2.0
@@ -712,7 +712,7 @@ libgme0:amd64
 libgmp-dev:amd64
 libgmp10:amd64
 libgmpxx4ldbl:amd64
-libgnome-desktop-3-17:amd64
+# libgnome-desktop-3-17:amd64
 libgnomecanvas2-0:amd64
 libgnomecanvas2-common
 libgnutls-dane0:amd64
@@ -723,7 +723,7 @@ libgoffice-0.10-10
 libgoffice-0.10-10-common
 libgomp1:amd64
 libgpg-error0:amd64
-libgpgme++2v5
+# libgpgme++2v5
 libgpgme11:amd64
 libgpgmepp6:amd64
 libgphoto2-6:amd64
@@ -735,16 +735,16 @@ libgraphene-1.0-0:amd64
 libgraphicsmagick++-q16-12
 libgraphicsmagick-q16-3
 libgraphite2-3:amd64
-libgroupsock8:amd64
+# libgroupsock8:amd64
 libgs9:amd64
 libgs9-common
 libgsasl7
 libgsf-1-114:amd64
 libgsf-1-common
-libgsl23:amd64
+# libgsl23:amd64
 libgslcblas0:amd64
 libgsm1:amd64
-libgspell-1-1:amd64
+# libgspell-1-1:amd64
 libgspell-1-common
 libgssapi-krb5-2:amd64
 libgstreamer-gl1.0-0:amd64
@@ -753,7 +753,7 @@ libgstreamer1.0-0:amd64
 libgtk-3-0:amd64
 libgtk-3-bin
 libgtk-3-common
-libgtk2-perl
+# libgtk2-perl
 libgtk2.0-0:amd64
 libgtk2.0-bin
 libgtk2.0-common
@@ -775,8 +775,8 @@ libhdf4-0-alt
 libhdf5-103:amd64
 libhdf5-cpp-103:amd64
 libheif1:amd64
-libhfstospell10:amd64
-libhogweed4:amd64
+# libhfstospell10:amd64
+# libhogweed4:amd64
 libhpmud0:amd64
 libhtml-form-perl
 libhtml-format-perl
@@ -792,44 +792,44 @@ libhttp-negotiate-perl
 libhunspell-1.7-0:amd64
 libhwloc-dev:amd64
 libhwloc-plugins:amd64
-libhwloc5:amd64
-libhx28:amd64
+# libhwloc5:amd64
+# libhx28:amd64
 libhyphen0:amd64
 libibverbs-dev:amd64
 libibverbs1:amd64
 libical3:amd64
 libice6:amd64
-libicu63:amd64
+# libicu63:amd64
 libid3tag0:amd64
 libident
 libidn11:amd64
 libidn2-0:amd64
 libiec61883-0:amd64
 libieee1284-3:amd64
-libigdgmm5:amd64
+# libigdgmm5:amd64
 libijs-0.35:amd64
-libilmbase23:amd64
+# libilmbase23:amd64
 libimagequant0:amd64
 libimlib2:amd64
 libimobiledevice6:amd64
 libindi-data
 libindi-plugins:amd64
 libindialignmentdriver1:amd64
-libindicator3-7:amd64
+# libindicator3-7:amd64
 libindidriver1:amd64
 libinput-bin
 libinput10:amd64
 libio-html-perl
 libio-socket-ssl-perl
 libio-stringy-perl
-libip4tc0:amd64
+# libip4tc0:amd64
 libipc-system-simple-perl
 libirs161:amd64
-libisc-export1100:amd64
-libisc1100:amd64
+# libisc-export1100:amd64
+# libisc1100:amd64
 libisccc161:amd64
 libisccfg163:amd64
-libisl19:amd64
+# libisl19:amd64
 libitm1:amd64
 libiw30:amd64
 libixml10:amd64
@@ -840,7 +840,7 @@ libjbig0:amd64
 libjbig2dec0:amd64
 libjcode-perl
 libjcode-pm-perl
-libjim0.77:amd64
+# libjim0.77:amd64
 libjpeg-turbo-progs
 libjpeg62-turbo:amd64
 libjs-asciimathml
@@ -851,25 +851,25 @@ libjs-jquery-ui
 libjs-mathjax
 libjs-mootools
 libjs-prototype
-libjson-c3:amd64
+# libjson-c3:amd64
 libjson-glib-1.0-0:amd64
 libjson-glib-1.0-common
-libjsoncpp1:amd64
+# libjsoncpp1:amd64
 libjxr-tools
 libjxr0:amd64
 libk5crypto3:amd64
-libkactivities6
+# libkactivities6
 libkate1:amd64
-libkatepartinterfaces4
-libkcmutils4
-libkde3support4
-libkdeclarative5
-libkdecore5
-libkdesu5
-libkdeui5
-libkdewebkit5
-libkdnssd4
-libkemoticons4
+# libkatepartinterfaces4
+# libkcmutils4
+# libkde3support4
+# libkdeclarative5
+# libkdecore5
+# libkdesu5
+# libkdeui5
+# libkdewebkit5
+# libkdnssd4
+# libkemoticons4
 libkeybinder-3.0-0:amd64
 libkeyutils1:amd64
 libkf5archive5:amd64
@@ -962,14 +962,14 @@ libkf5xmlgui-data
 libkf5xmlgui5:amd64
 libkf5xmlrpcclient-data
 libkf5xmlrpcclient5:amd64
-libkfile4
-libkhtml5
-libkio5
-libkjsapi4
-libkjsembed4
+# libkfile4
+# libkhtml5
+# libkio5
+# libkjsapi4
+# libkjsembed4
 libklibc:amd64
 libklu1:amd64
-libkmediaplayer4
+# libkmediaplayer4
 libkmlbase1:amd64
 libkmlconvenience1:amd64
 libkmldom1:amd64
@@ -977,36 +977,36 @@ libkmlengine1:amd64
 libkmlregionator1:amd64
 libkmlxsd1:amd64
 libkmod2:amd64
-libknewstuff3-4
-libknotifyconfig4
-libkntlm4
-libkparts4
+# libknewstuff3-4
+# libknotifyconfig4
+# libkntlm4
+# libkparts4
 libkpathsea6:amd64
-libkpty4
+# libkpty4
 libkrb5-3:amd64
 libkrb5support0:amd64
-libkrosscore4
+# libkrosscore4
 libksba8:amd64
-libktexteditor4
+# libktexteditor4
 libkwalletbackend5-5:amd64
 libkyotocabinet16v5:amd64
 liblab-gamut1
 liblapack3:amd64
-liblas-c3
-liblas3
+# liblas-c3
+# liblas3
 liblasso3
 liblcms2-2:amd64
 liblcms2-utils
 libldap-2.4-2:amd64
 libldap-common
-libldb1:amd64
+# libldb1:amd64
 liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblink-grammar5:amd64
 liblirc-client0:amd64
 liblircclient0
-liblivemedia64:amd64
-libllvm7:amd64
+# liblivemedia64:amd64
+# libllvm7:amd64
 liblmdb0:amd64
 liblo7:amd64
 liblocale-gettext-perl
@@ -1014,10 +1014,10 @@ liblockfile-bin
 liblockfile1:amd64
 libloudmouth1-0:amd64
 liblouis-data
-liblouis17:amd64
+# liblouis17:amd64
 liblouisutdml-bin
 liblouisutdml-data
-liblouisutdml8:amd64
+# liblouisutdml8:amd64
 liblqr-1-0:amd64
 liblsan0:amd64
 libltdl-dev:amd64
@@ -1041,10 +1041,10 @@ libmagickcore-6.q16-6-extra:amd64
 libmagickwand-6.q16-6:amd64
 libmail-sendmail-perl
 libmailtools-perl
-libmailutils5:amd64
+# libmailutils5:amd64
 libmaloc1
 libmariadb3:amd64
-libmatroska6v5:amd64
+# libmatroska6v5:amd64
 libmetis5:amd64
 libmhash2:amd64
 # libmicrodns0:amd64
@@ -1060,18 +1060,18 @@ libmount1:amd64
 libmp3lame0:amd64
 libmpc3:amd64
 libmpcdec6:amd64
-libmpdec2:amd64
+# libmpdec2:amd64
 libmpeg2-4:amd64
 libmpfr6:amd64
 libmpg123-0:amd64
-libmpx2:amd64
+# libmpx2:amd64
 libmtdev1:amd64
 libmtp-common
 libmtp-runtime
 libmtp9:amd64
-libmypaint-1.3-0:amd64
+# libmypaint-1.3-0:amd64
 libmypaint-common
-libmysofa0:amd64
+# libmysofa0:amd64
 libnautilus-extension1a:amd64
 libncurses5:amd64
 libncurses6:amd64
@@ -1081,12 +1081,12 @@ libnet-dbus-perl
 libnet-http-perl
 libnet-smtp-ssl-perl
 libnet-ssleay-perl
-libnetcdf13:amd64
+# libnetcdf13:amd64
 libnetpbm10
 libnetpbm9
-libnettle6:amd64
+# libnettle6:amd64
 libnewt0.52:amd64
-libnfs12:amd64
+# libnfs12:amd64
 libnfsidmap2:amd64
 libnghttp2-14:amd64
 libnl-3-200:amd64
@@ -1105,22 +1105,22 @@ libnss-mdns:amd64
 libnss3:amd64
 libntfs-3g883
 libntlm0:amd64
-libntrack-qt4-1
-libntrack0
+# libntrack-qt4-1
+# libntrack0
 libnuma-dev:amd64
 libnuma1:amd64
 liboauth0:amd64
-liboctave6:amd64
+# liboctave6:amd64
 libodbc1:amd64
 libogdi3.2
 libogg0:amd64
 libonig5:amd64
 libopenal-data
 libopenal1:amd64
-libopenbabel5
+# libopenbabel5
 libopencore-amrnb0:amd64
 libopencore-amrwb0:amd64
-libopenexr23:amd64
+# libopenexr23:amd64
 libopenjp2-7:amd64
 libopenmpi-dev:amd64
 libopenmpi3:amd64
@@ -1160,37 +1160,37 @@ libpcre2-16-0:amd64
 libpcre2-8-0:amd64
 libpcre3:amd64
 libpcsclite1:amd64
-libpdal-base7
+# libpdal-base7
 libpdal-plugin-faux
-libpdal-plugin-greyhound
+# libpdal-plugin-greyhound
 libpdal-plugin-icebridge
 libpdal-plugin-pgpointcloud
-libpdal-plugin-python
-libpdal-plugin-sqlite
+# libpdal-plugin-python
+# libpdal-plugin-sqlite
 libpdal-plugins
-libpdal-util7
+# libpdal-util7
 libperl4-corelibs-perl
-libperl5.28:amd64
-libpgm-5.2-0:amd64
-libphonenumber7:amd64
-libphonon4:amd64
+# libperl5.28:amd64
+# libpgm-5.2-0:amd64
+# libphonenumber7:amd64
+# libphonon4:amd64
 libphonon4qt5-4:amd64
 libpipeline1:amd64
 libpixman-1-0:amd64
-libplacebo7:amd64
-libplasma3
+# libplacebo7:amd64
+# libplasma3
 libplist3:amd64
 libplot2c2:amd64
 libpmix2:amd64
 libpng16-16:amd64
-libpodofo0.9.6
+# libpodofo0.9.6
 libpolkit-agent-1-0:amd64
-libpolkit-backend-1-0:amd64
+# libpolkit-backend-1-0:amd64
 libpolkit-gobject-1-0:amd64
-libpolkit-qt-1-1:amd64
+# libpolkit-qt-1-1:amd64
 libpolkit-qt5-1-1:amd64
 libpoppler-glib8:amd64
-libpoppler82:amd64
+# libpoppler82:amd64
 libpopt0:amd64
 libportaudio2:amd64
 libportmidi0:amd64
@@ -1198,11 +1198,11 @@ libportsmf0:amd64
 libpostproc55:amd64
 libpotrace0:amd64
 libpq5:amd64
-libprocps7:amd64
-libproj13:amd64
+# libprocps7:amd64
+# libproj13:amd64
 libprotobuf-c1:amd64
-libprotobuf-lite17:amd64
-libprotobuf17:amd64
+# libprotobuf-lite17:amd64
+# libprotobuf17:amd64
 libproxy-tools
 libproxy1v5:amd64
 libpsl5:amd64
@@ -1213,36 +1213,36 @@ libptexenc1:amd64
 libpulse-mainloop-glib0:amd64
 libpulse0:amd64
 libpulsedsp:amd64
-libpython-stdlib:amd64
+# libpython-stdlib:amd64
 libpython2-stdlib:amd64
 libpython2.7:amd64
 libpython2.7-minimal:amd64
 libpython2.7-stdlib:amd64
 libpython3-stdlib:amd64
 libpython3.7:amd64
-libpython3.7-minimal:amd64
-libpython3.7-stdlib:amd64
-libqca2:amd64
-libqca2-plugins:amd64
+# libpython3.7-minimal:amd64
+# libpython3.7-stdlib:amd64
+# libqca2:amd64
+# libqca2-plugins:amd64
 libqdbm14
-libqhull7:amd64
-libqpdf21:amd64
+# libqhull7:amd64
+# libqpdf21:amd64
 libqrencode4:amd64
 libqrupdate1:amd64
-libqscintilla2-qt5-13
+# libqscintilla2-qt5-13
 libqscintilla2-qt5-l10n
-libqt4-dbus:amd64
-libqt4-declarative:amd64
-libqt4-designer:amd64
-libqt4-network:amd64
-libqt4-opengl:amd64
-libqt4-qt3support:amd64
-libqt4-script:amd64
-libqt4-sql:amd64
-libqt4-sql-mysql:amd64
-libqt4-svg:amd64
-libqt4-xml:amd64
-libqt4-xmlpatterns:amd64
+# libqt4-dbus:amd64
+# libqt4-declarative:amd64
+# libqt4-designer:amd64
+# libqt4-network:amd64
+# libqt4-opengl:amd64
+# libqt4-qt3support:amd64
+# libqt4-script:amd64
+# libqt4-sql:amd64
+# libqt4-sql-mysql:amd64
+# libqt4-svg:amd64
+# libqt4-xml:amd64
+# libqt4-xmlpatterns:amd64
 libqt5concurrent5:amd64
 libqt5core5a:amd64
 libqt5dbus5:amd64
@@ -1277,19 +1277,19 @@ libqt5websockets5:amd64
 libqt5widgets5:amd64
 libqt5x11extras5:amd64
 libqt5xml5:amd64
-libqtcore4:amd64
-libqtdbus4:amd64
-libqtgui4:amd64
-libqtwebkit4:amd64
+# libqtcore4:amd64
+# libqtdbus4:amd64
+# libqtgui4:amd64
+# libqtwebkit4:amd64
 libquadmath0:amd64
 libraptor2-0:amd64
 librasqal3:amd64
 libraw1394-11:amd64
-libraw19:amd64
+# libraw19:amd64
 librdf0:amd64
 librdmacm1:amd64
-libreadline5:amd64
-libreadline7:amd64
+# libreadline5:amd64
+# libreadline7:amd64
 librecode0:amd64
 libreoffice
 librep16:amd64
@@ -1299,10 +1299,10 @@ librevenge-0.0-0:amd64
 librsvg2-2:amd64
 librsvg2-common:amd64
 librtaudio6:amd64
-librtmidi4:amd64
+# librtmidi4:amd64
 librtmp1:amd64
 librubberband2:amd64
-libruby2.5:amd64
+# libruby2.5:amd64
 libsamplerate0:amd64
 libsane:amd64
 libsane-common
@@ -1340,9 +1340,9 @@ libsnappy1v5:amd64
 libsndfile1:amd64
 libsndio7.0:amd64
 libsnmp-base
-libsnmp30:amd64
+# libsnmp30:amd64
 libsodium23:amd64
-libsolid4
+# libsolid4
 libsord-0-0:amd64
 libsoundtouch1:amd64
 libsoup-gnome2.4-1:amd64
@@ -1364,10 +1364,10 @@ libssh-gcrypt-4:amd64
 libssh2-1:amd64
 libssl1.1:amd64
 libstartup-notification0:amd64
-libstdc++-8-dev:amd64
+# libstdc++-8-dev:amd64
 libstdc++5:amd64
 libstdc++6:amd64
-libstk-4.5.0:amd64
+# libstk-4.5.0:amd64
 libstroke0:amd64
 libsuil-0-0:amd64
 libsuitesparseconfig5:amd64
@@ -1390,7 +1390,7 @@ libteamdctl0:amd64
 libteckit0:amd64
 libtelepathy-glib0:amd64
 libtevent0:amd64
-libtexlua52:amd64
+# libtexlua52:amd64
 libtexlua53:amd64
 libtexluajit2:amd64
 libtext-iconv-perl
@@ -1398,7 +1398,7 @@ libtext-unidecode-perl
 libthai-data
 libthai0:amd64
 libtheora0:amd64
-libthreadweaver4
+# libthreadweaver4
 libthunarx-3-0:amd64
 libtidy5deb1:amd64
 libtie-ixhash-perl
@@ -1427,7 +1427,7 @@ libupnp13:amd64
 libupower-glib3:amd64
 liburi-perl
 liburiparser1:amd64
-libusageenvironment3:amd64
+# libusageenvironment3:amd64
 libusb-0.1-4:amd64
 libusb-1.0-0:amd64
 libusbmuxd4:amd64
@@ -1453,7 +1453,7 @@ libvolume-key1
 libvorbis0a:amd64
 libvorbisenc2:amd64
 libvorbisfile3:amd64
-libvpx5:amd64
+# libvpx5:amd64
 libvte-2.91-0:amd64
 libvte-2.91-common
 libvulkan1:amd64
@@ -1467,7 +1467,7 @@ libwayland-cursor0:amd64
 libwayland-egl1:amd64
 libwayland-server0:amd64
 libwbclient0:amd64
-libwcs6:amd64
+# libwcs6:amd64
 libwebkit2gtk-4.0-37:amd64
 libwebp6:amd64
 libwebpdemux2:amd64
@@ -1486,14 +1486,14 @@ libwvstreams4.6-extras
 libwww-perl
 libwww-robotrules-perl
 libwxbase3.0-0v5:amd64
-libwxgtk3.0-0v5:amd64
+# libwxgtk3.0-0v5:amd64
 libwxgtk3.0-gtk3-0v5:amd64
 libx11-6:amd64
 libx11-data
 libx11-protocol-perl
 libx11-xcb1:amd64
-libx264-155:amd64
-libx265-165:amd64
+# libx264-155:amd64
+# libx265-165:amd64
 libxapian30:amd64
 libxatracker2:amd64
 libxau6:amd64
@@ -1512,7 +1512,7 @@ libxcb-render0:amd64
 libxcb-shape0:amd64
 libxcb-shm0:amd64
 libxcb-sync1:amd64
-libxcb-util0:amd64
+# libxcb-util0:amd64
 libxcb-xfixes0:amd64
 libxcb-xinerama0:amd64
 libxcb-xkb1:amd64
@@ -1526,13 +1526,13 @@ libxdot4
 libxerces-c3.2:amd64
 libxext6:amd64
 libxfce4panel-2.0-4
-libxfce4ui-1-0:amd64
+# libxfce4ui-1-0:amd64
 libxfce4ui-2-0:amd64
 libxfce4ui-common
 libxfce4ui-utils
 libxfce4util-common
 libxfce4util7:amd64
-libxfconf-0-2
+# libxfconf-0-2
 libxfixes3:amd64
 libxfont2:amd64
 libxft2:amd64
@@ -1626,7 +1626,7 @@ mgp
 mikmod
 mime-support
 minisat
-mknbi
+# mknbi
 mount
 mpg321
 mscompress
@@ -1646,7 +1646,7 @@ netpipes
 node-normalize.css
 notification-daemon
 ntfs-3g
-ntrack-module-libnl-0
+# ntrack-module-libnl-0
 ocl-icd-libopencl1:amd64
 octave
 octave-common
@@ -1681,18 +1681,18 @@ pciutils
 pdf2djvu
 perl
 perl-base
-perl-modules-5.28
+# perl-modules-5.28
 perl-openssl-defaults:amd64
 perl-tk
-phonon:amd64
-phonon-backend-gstreamer:amd64
+# phonon:amd64
+# phonon-backend-gstreamer:amd64
 phonon-backend-gstreamer-common:amd64
 phonon4qt5:amd64
 phonon4qt5-backend-vlc:amd64
 pinentry-curses
 pinentry-gnome3
 pinentry-gtk2
-plasma-scriptengine-javascript
+# plasma-scriptengine-javascript
 playmidi
 po-debconf
 policykit-1
@@ -1738,38 +1738,38 @@ pxlib1
 pymol
 pymol-data
 python
-python-backports.functools-lru-cache
-python-cairo:amd64
-python-crypto
-python-cycler
-python-dateutil
-python-dbus
-python-gi
-python-gobject-2
-python-gpg
-python-gtk2
-python-kiwisolver
-python-lasso
-python-ldb
-python-matplotlib
-python-matplotlib2-data
-python-minimal
-python-numpy
-python-olefile
-python-opengl
-python-pil:amd64
+# python-backports.functools-lru-cache
+# python-cairo:amd64
+# python-crypto
+# python-cycler
+# python-dateutil
+# python-dbus
+# python-gi
+# python-gobject-2
+# python-gpg
+# python-gtk2
+# python-kiwisolver
+# python-lasso
+# python-ldb
+# python-matplotlib
+# python-matplotlib2-data
+# python-minimal
+# python-numpy
+# python-olefile
+# python-opengl
+# python-pil:amd64
 python-pkg-resources
-python-pmw
-python-pyparsing
-python-samba
+# python-pmw
+# python-pyparsing
+# python-samba
 python-six
-python-subprocess32
-python-talloc:amd64
-python-tdb
+# python-subprocess32
+# python-talloc:amd64
+# python-tdb
 python-tk
 python-tz
-python-wxgtk3.0
-python-wxversion
+# python-wxgtk3.0
+# python-wxversion
 python2
 python2-minimal
 python2.7
@@ -1812,7 +1812,7 @@ python3-scipy
 python3-sip
 python3-six
 python3.7
-python3.7-minimal
+# python3.7-minimal
 qdbus
 qjackctl
 qml-module-org-kde-kirigami2
@@ -1828,10 +1828,10 @@ qml-module-qtquick-templates2:amd64
 qml-module-qtquick-window2:amd64
 qml-module-qtquick2:amd64
 qrencode
-qt-at-spi:amd64
+# qt-at-spi:amd64
 qt5-gtk-platformtheme:amd64
 qtchooser
-qtcore4-l10n
+# qtcore4-l10n
 qttranslations5-l10n
 qtwayland5:amd64
 rake
@@ -1850,7 +1850,7 @@ ruby-net-telnet
 ruby-power-assert
 ruby-test-unit
 ruby-xmlrpc
-ruby2.5
+# ruby2.5
 rubygems-integration
 samba-common
 samba-common-bin
