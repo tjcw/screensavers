@@ -2,7 +2,7 @@
 PATH=/sbin:$PATH
 lb clean
 lb config --distribution=$2 --chroot-filesystem=ext4
-awk '{ if ( $1 != "#" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
+awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
    > config/package-lists/desktop.list.chroot
 #cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/chroot \
    /usr/lib/live/build/chroot
