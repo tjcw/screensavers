@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "QemuSaver"
-#define MyAppVersion "1.5"
+#define MyAppVersion "1.7"
 #define MyAppPublisher "Linuxtracker"
 #define MyAppURL "http://linuxtracker.org/"
 
