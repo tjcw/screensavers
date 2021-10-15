@@ -6,10 +6,10 @@ adduser
 adwaita-icon-theme
 aglfn
 alsa-utils
-apache2
-apache2-bin
-apache2-data
-apache2-utils
+#apache2
+#apache2-bin
+#apache2-data
+#apache2-utils
 apbs
 apt
 apt-utils
@@ -1611,7 +1611,7 @@ makedev
 man-db
 manpages
 manpages-dev
-mariadb-common
+#mariadb-common
 mawk
 maxima
 maxima-share
@@ -1631,7 +1631,7 @@ mount
 mpg321
 mscompress
 mtools
-mysql-common
+#mysql-common
 nano
 ncurses-base
 ncurses-bin
@@ -1956,10 +1956,10 @@ wavemon
 wget
 whiptail
 whois
-wims
-wims-help
-wims-java-applets
-wims-modules
+#wims
+#wims-help
+#wims-java-applets
+#wims-modules
 wireless-tools
 wpagui
 wpasupplicant
