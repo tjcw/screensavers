@@ -1,5 +1,6 @@
 #!/bin/bash -x
 PATH=/sbin:$PATH
+export LB_BOOTAPPEND_LIVE="-boot=live components splash"
 lb clean
 lb config --distribution=$2 --chroot-filesystem=ext4
 awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
@@ -8,14 +9,18 @@ awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /
    /usr/lib/live/build/chroot
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/isolinux.cfg \
    /usr/share/live/build/bootloaders/isolinux/isolinux.cfg
+#cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/binary_grub_cfg \
+#   /usr/lib/live/build/binary_grub_cfg
+#cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/configuration.sh \
+#    /usr/share/live/build/functions/configuration.sh
 #cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/system \
-   config/system
+#   config/system
 #cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/build \
-   config/build
+#   config/build
 #cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/bootstrap \
 #   config/bootstrap
-#mkdir -p config/hooks
-#cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/hooks/$1/. config/hooks/
+mkdir -p config/hooks
+cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/hooks/$1/. config/hooks/
 mkdir -p config/content
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/$1/. config/content/
 for i in $(seq 1 10)
