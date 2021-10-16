@@ -1,6 +1,6 @@
 #!/bin/bash -x
 PATH=/sbin:$PATH
-export LB_BOOTAPPEND_LIVE="-boot=live components splash"
+export LB_BOOTAPPEND_LIVE="boot=live components splash"
 lb clean
 lb config --distribution=$2 --chroot-filesystem=ext4
 awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
