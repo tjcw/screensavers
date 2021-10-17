@@ -4,4 +4,5 @@ pwd
 echo "ok" >okfile
 mount
 cp -pr live-build/config/content/. .
+#chown -R live.live home/live
 
