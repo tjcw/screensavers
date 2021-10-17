@@ -13,11 +13,11 @@ hosting machine; I needed to use a CentOS 8 host because most linux
 distributions nowadays do not recognise the ancient ciphers which were in
 use then.
 
-Then I found the open-infrastructure-system-build package. I wrote a
+Then I found the live-build package. I wrote a
 script scripts/bin/do_oi to build a suitable Live Linux iso. To run this,
-you should 'git clone' this repo under ~/workspace ; then go to an
+you should 'git clone' this repo under ~/eclipse-workspace ; then go to an
 empty directory, and run this scripts as
-  sudo ~/workspace/screensavers/scripts/bin/do_oi freeduc
+  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi freeduc
 
 This results in an 'iso' which can be run in a VM or booted on a real
 system. But I wanted to run it as a screensaver for Windows, so I have
