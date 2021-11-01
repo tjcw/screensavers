@@ -16,8 +16,10 @@ use then.
 Then I found the live-build package. I wrote a
 script scripts/bin/do_oi to build a suitable Live Linux iso. To run this,
 you should 'git clone' this repo under ~/eclipse-workspace ; then go to an
-empty directory, and run this scripts as
-  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi freeduc
+empty directory, and run this script as
+  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi freeduc bullseye
+or
+  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi gk bullseye
 
 This results in an 'iso' which can be run in a VM or booted on a real
 system. But I wanted to run it as a screensaver for Windows, so I have
