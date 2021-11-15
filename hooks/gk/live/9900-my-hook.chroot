@@ -4,4 +4,21 @@ pwd
 echo "ok" >okfile
 mount
 cp -pr live-build/config/content/. .
+(
+  cd /var/cache/apt/archives && (
+dpkg --version >/tmp/dpkg.version
+COLUMNS=100 dpkg -l >/tmp/dpkg.dependencies
+awk '{ print $2 }' </tmp/dpkg.dependencies >/tmp/dpkg.inslist
+for p in $(</tmp/dpkg.dependencies)
+do
+  dpkg --info $p|grep Depends 
+done >/tmp/dpkg.deplist 
+
+for p in $(</tmp/dpkg.dependencies)
+do
+  dpkg -p $p                  
+done >/tmp/dpkg.depdetail
+)
+)
+bash
 
