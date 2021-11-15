@@ -16,7 +16,10 @@ done >/tmp/dpkg.deplist
 
 for p in $(</tmp/dpkg.dependencies)
 do
-  dpkg -p $p                  
+  if [[ "$p" != "-" ]]
+  then
+    dpkg -p $p                  
+  fi
 done >/tmp/dpkg.depdetail
 )
 )
