@@ -19,5 +19,5 @@ do
 done >/tmp/dpkg.depdetail
 ) </dev/null
 
-bash
+#bash
 
