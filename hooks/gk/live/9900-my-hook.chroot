@@ -8,12 +8,12 @@ cd /var/cache/apt/archives && (
 dpkg --version >/tmp/dpkg.version
 COLUMNS=100 dpkg -l >/tmp/dpkg.dependencies
 awk '{ print $2 }' </tmp/dpkg.dependencies >/tmp/dpkg.inslist
-for p in $(</tmp/dpkg.dependencies)
+for p in $(</tmp/dpkg.inslist)
 do
-  dpkg --info $p|grep Depends
+  dpkg --info $p*|grep Depends
 done >/tmp/dpkg.deplist
 
-for p in $(</tmp/dpkg.dependencies)
+for p in $(</tmp/dpkg.inslist)
 do
   dpkg -p $p  
 done >/tmp/dpkg.depdetail
