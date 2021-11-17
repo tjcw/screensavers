@@ -10,7 +10,7 @@ COLUMNS=100 dpkg -l >/tmp/dpkg.dependencies
 awk '{ print $2 }' </tmp/dpkg.dependencies >/tmp/dpkg.inslist
 for p in $(</tmp/dpkg.inslist)
 do
-  dpkg --info $p|grep Depends
+  dpkg --info $p*|grep Depends
 done >/tmp/dpkg.deplist
 
 for p in $(</tmp/dpkg.inslist)
@@ -19,5 +19,5 @@ do
 done >/tmp/dpkg.depdetail
 ) </dev/null
 
-bash
+#bash
 
