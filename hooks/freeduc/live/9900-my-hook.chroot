@@ -20,4 +20,4 @@ done >/tmp/dpkg.depdetail
 ) </dev/null
 
 #bash
-
+exit 0
