@@ -5,7 +5,10 @@ COLUMNS=100 dpkg -l >/tmp/dpkg.dependencies
 awk '{ print $2 }' </tmp/dpkg.dependencies >/tmp/dpkg.inslist
 for p in $(</tmp/dpkg.inslist)
 do
-  dpkg --info $p*|grep Depends
+  if [[ -r $p* ]]
+  then 
+    dpkg --info $p*|grep Depends
+  fi
 done >/tmp/dpkg.deplist
 
 for p in $(</tmp/dpkg.inslist)
@@ -13,3 +16,4 @@ do
   dpkg -p $p  
 done >/tmp/dpkg.depdetail
 ) </dev/null
+exit 0
