@@ -3,17 +3,17 @@ function update_debian
 {
    version_from=$1
    version_to=$2
-   apt-get update
-   apt-get upgrade
+   apt-get -y update
+   apt-get -y upgrade
    sed "s/$version_from/${version_to}" /etc/apt/sources.list
-   apt-get update
-   apt_get upgrade
-   apt_get full-upgrade
+   apt-get -y update
+   apt_get -y upgrade
+   apt_get -y full-upgrade
 }
 function install_apps
 {
-   apt-get update
-   apt-get install $(awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot)
+   apt-get -y update
+   apt-get -y install $(awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot)
 }
 PATH=/sbin:$PATH
 export DEBIAN_FRONTEND=noninteractive
