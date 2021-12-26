@@ -1,0 +1,4 @@
+#!/bin/bash -x
+PATH=/sbin:$PATH
+export DEBIAN_FRONTEND=noninteractive
+apt-get install $(awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot)
