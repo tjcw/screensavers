@@ -1,4 +1,22 @@
 #!/bin/bash -x
+function update_debian
+{
+   version_from=$1
+   version_to=$2
+   apt-get update
+   apt-get upgrade
+   sed "s/$version_from/${version_to}" /etc/apt/sources.list
+   apt-get update
+   apt_get upgrade
+   apt_get full-upgrade
+}
+function install_apps
+{
+   apt-get update
+   apt-get install $(awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot)
+}
 PATH=/sbin:$PATH
 export DEBIAN_FRONTEND=noninteractive
-apt-get install $(awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot)
+update_debian stretch buster
+update_debian buster bullseye
+install_apps $1
