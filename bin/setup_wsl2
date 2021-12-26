@@ -7,8 +7,8 @@ function update_debian
    apt-get -y upgrade
    sed "s/$version_from/${version_to}" /etc/apt/sources.list
    apt-get -y update
-   apt_get -y upgrade
-   apt_get -y full-upgrade
+   apt-get -y upgrade
+   apt-get -y full-upgrade
 }
 function install_apps
 {
