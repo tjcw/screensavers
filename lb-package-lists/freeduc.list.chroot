@@ -1963,7 +1963,7 @@ whois
 wireless-tools
 wpagui
 wpasupplicant
-wvdial
+# wvdial
 x11-apps
 x11-common
 x11-session-utils

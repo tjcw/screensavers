@@ -2311,7 +2311,7 @@ wine64
 wipe
 wireless-tools
 wodim
-wvdial
+#wvdial
 x11-apps
 x11-common
 x11-session-utils
