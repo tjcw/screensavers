@@ -5,7 +5,7 @@ function update_debian
    version_to=$2
    apt-get -y update
    apt-get -y upgrade
-   sed "s/$version_from/${version_to}/g" /etc/apt/sources.list
+   sed -i "s/$version_from/${version_to}/g" /etc/apt/sources.list
    apt-get -y update
    apt-get -y upgrade
    apt-get -y full-upgrade
