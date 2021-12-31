@@ -34,3 +34,9 @@ installation in the usual way for Windows.
 Then go back to Linux, set up a file tree matching what you see in
 the reference installation package, and use 'zip' to pack it all into
 one file. Then take this to your Windows system and test it.
+
+The reference zip files are supplied as part of the Lighthouse material. To
+install these, download them to the target Windows system; unpack them with
+the built-in Windows function to unpack zip files, and run the insttaller
+executables. Then go to the screensaver selection screen and select one of
+the new screensavers which appear, either 'fr2' or 'gk2'.
