@@ -217,7 +217,7 @@ freeciv-server
 # bookworm freeglut3:amd64
 freepats
 ftp
-fuse
+# bookworm fuse
 fxload
 g++
 g++-8
