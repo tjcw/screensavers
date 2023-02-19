@@ -168,7 +168,7 @@ evince
 evince-common
 evolution-data-server-common
 exfat-fuse
-exfat-utils
+# bookworm exfat-utils
 exim4-base
 exim4-config
 exim4-daemon-light
@@ -188,7 +188,7 @@ finger
 firefox-esr
 fluid-soundfont-gm
 fluidr3mono-gm-soundfont
-flydraw
+# bookworm flydraw
 fontconfig
 fontconfig-config
 fonts-dejavu
@@ -214,7 +214,7 @@ freeciv
 freeciv-client-gtk3
 freeciv-data
 freeciv-server
-freeglut3:amd64
+# bookworm freeglut3:amd64
 freepats
 ftp
 fuse
@@ -244,7 +244,7 @@ gawk
 gcc
 # gcc-8
 # gcc-8-base:amd64
-gcompris
+# bookworm gcompris
 gcompris-qt
 gcompris-qt-data
 gconf-service
@@ -281,7 +281,7 @@ glib-networking-services
 gnome-desktop3-data
 gnome-keyring
 gnome-keyring-pkcs11:amd64
-gnome-mime-data
+# bookworm gnome-mime-data
 gnuchess
 gnuchess-book
 gnuhtml2latex
@@ -1638,7 +1638,7 @@ ncurses-bin
 ncurses-term
 net-tools
 netbase
-netcat
+# bookworm netcat
 netcat-traditional
 netpbm
 netpipe-tcp
@@ -1654,7 +1654,7 @@ octave-doc
 odbcinst
 odbcinst1debian2:amd64
 openbabel
-openjdk-11-jre-headless:amd64
+# bookworm openjdk-11-jre-headless:amd64
 openmpi-bin
 openmpi-common
 openssh-client
@@ -1737,7 +1737,7 @@ pulseaudio-utils
 pxlib1
 pymol
 pymol-data
-python
+# bookworm python
 # python-backports.functools-lru-cache
 # python-cairo:amd64
 # python-crypto
@@ -1758,22 +1758,22 @@ python
 # python-olefile
 # python-opengl
 # python-pil:amd64
-python-pkg-resources
+# bookworm python-pkg-resources
 # python-pmw
 # python-pyparsing
 # python-samba
-python-six
+# bookworm python-six
 # python-subprocess32
 # python-talloc:amd64
 # python-tdb
-python-tk
+# bookworm python-tk
 # python-tz
 # python-wxgtk3.0
 # python-wxversion
-python2
-python2-minimal
-python2.7
-python2.7-minimal
+# bookworm python2
+# bookworm python2-minimal
+# bookworm python2.7
+# bookworm python2.7-minimal
 python3
 python3-astrometry
 python3-astropy
@@ -1994,9 +1994,9 @@ xfonts-100dpi-transcoded
 xfonts-75dpi
 xfonts-75dpi-transcoded
 xfonts-base
-xfonts-bolkhov-cp1251-75dpi
-xfonts-bolkhov-cp1251-misc
-xfonts-cyrillic
+# bookworm xfonts-bolkhov-cp1251-75dpi
+# bookowrm xfonts-bolkhov-cp1251-misc
+# bookworm xfonts-cyrillic
 xfonts-encodings
 xfonts-intl-chinese
 xfonts-intl-european
