@@ -23,7 +23,8 @@ mkdir -p config/hooks
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/hooks/$1/. config/hooks/
 mkdir -p config/content
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/$1/. config/content/
-for i in $(seq 1 10)
+#for i in $(seq 1 10)
+for i in $(seq 1 1)
 do
    echo "Build pass $i"
    [[ -r live-image-amd64.hybrid.iso ]] || lb build 
