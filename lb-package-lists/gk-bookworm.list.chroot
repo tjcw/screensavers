@@ -137,7 +137,7 @@ docbook-xsl
 dolphin
 dosbox
 dosfstools
-dpatch
+# bookworm dpatch
 dpkg
 dpkg-dev
 dpkg-repack
@@ -173,7 +173,7 @@ ettercap-graphical
 evemu-tools
 evtest
 exfat-fuse
-exfat-utils
+# bookkworm exfat-utils
 expect
 fairymax
 fakeroot
@@ -210,7 +210,7 @@ freeciv-client-gtk
 freeciv-client-gtk3
 freeciv-data
 freeciv-server
-freeglut3:amd64
+# bookworm freeglut3:amd64
 freerdp2-x11
 frozen-bubble
 frozen-bubble-data
@@ -377,7 +377,7 @@ kdoctools5
 keditbookmarks
 keyboard-configuration
 keyutils
-kf5-kdepim-apps-libs-data
+# bookworm kf5-kdepim-apps-libs-data
 kf5-messagelib-data
 kfind
 kfloppy
@@ -417,9 +417,9 @@ krfb
 kross
 #kscd
 #ksnapshot
-ksysguard
-ksysguard-data
-ksysguardd
+# ksysguard
+# ksysguard-data
+# ksysguardd
 kteatime
 ktexteditor-data
 ktexteditor-katepart
@@ -1957,7 +1957,7 @@ ncurses-term
 #ndiswrapper-dkms
 net-tools
 netbase
-netcat
+# bookworm netcat
 netcat-traditional
 nethack-common
 nethack-console
@@ -1987,7 +1987,7 @@ ntpdate
 #nvidia-kernel-support
 #nvidia-legacy-check
 #nvidia-modprobe
-nvtv
+# bookworm nvtv
 nx-x11-common
 nxagent
 nxproxy
@@ -2063,7 +2063,7 @@ psutils
 publicsuffix
 pulseaudio
 pulseaudio-utils
-python
+# python
 python-apt-common
 #python-bittorrent
 #python-cairo:amd64
@@ -2079,15 +2079,15 @@ python-apt-common
 #python-ldb
 #python-minimal
 #python-numpy
-python-pkg-resources
+# bookworm python-pkg-resources
 #python-samba
 #python-talloc:amd64
 #python-tdb
-python-tk
-python2
-python2-minimal
-python2.7
-python2.7-minimal
+# bookworm python-tk
+# python2
+# python2-minimal
+# python2.7
+# python2.7-minimal
 python3
 python3-apt
 python3-certifi
@@ -2237,7 +2237,8 @@ tsocks
 ttf-bitstream-vera
 #ttf-dejavu-core
 #ttf-dejavu-extra
-ttf-unifont
+# ttf-unifont
+fonts-unifont
 twm
 txt2regex
 tzdata
@@ -2266,7 +2267,7 @@ vdpau-driver-all:amd64
 vim
 vim-addon-manager
 vim-common
-vim-gtk
+# bookworm vim-gtk
 vim-gui-common
 vim-runtime
 vim-scripts
@@ -2281,27 +2282,27 @@ wamerican
 wavemon
 wdiff
 wesnoth
-wesnoth-1.14
-wesnoth-1.14-aoi
-wesnoth-1.14-core
-wesnoth-1.14-data
-wesnoth-1.14-did
-wesnoth-1.14-dm
-wesnoth-1.14-dw
-wesnoth-1.14-ei
-wesnoth-1.14-httt
-wesnoth-1.14-l
-wesnoth-1.14-low
-wesnoth-1.14-music
-wesnoth-1.14-nr
-wesnoth-1.14-sof
-wesnoth-1.14-sota
-wesnoth-1.14-sotbe
-wesnoth-1.14-thot
-wesnoth-1.14-trow
-wesnoth-1.14-tsg
-wesnoth-1.14-ttb
-wesnoth-1.14-utbs
+# bookworm wesnoth-1.14
+# bookworm wesnoth-1.14-aoi
+# bookworm wesnoth-1.14-core
+# bookworm wesnoth-1.14-data
+# bookworm wesnoth-1.14-did
+# bookworm wesnoth-1.14-dm
+# bookworm wesnoth-1.14-dw
+# bookworm wesnoth-1.14-ei
+# bookworm wesnoth-1.14-httt
+# bookworm wesnoth-1.14-l
+# bookworm wesnoth-1.14-low
+# bookworm wesnoth-1.14-music
+# bookworm wesnoth-1.14-nr
+# bookworm wesnoth-1.14-sof
+# bookworm wesnoth-1.14-sota
+# bookworm wesnoth-1.14-sotbe
+# bookworm wesnoth-1.14-thot
+# bookworm wesnoth-1.14-trow
+# bookworm wesnoth-1.14-tsg
+# bookworm wesnoth-1.14-ttb
+# bookworm wesnoth-1.14-utbs
 wesnoth-music
 wget
 whiptail
@@ -2319,9 +2320,9 @@ x11-utils
 x11-xkb-utils
 x11-xserver-utils
 x11proto-core-dev
-x11proto-damage-dev
+# bookworm x11proto-damage-dev
 x11proto-dev
-x11proto-fixes-dev
+# bookworm x11proto-fixes-dev
 x11proto-input-dev
 x11proto-randr-dev
 x11proto-record-dev
@@ -2352,8 +2353,8 @@ xfonts-100dpi-transcoded
 xfonts-75dpi
 xfonts-75dpi-transcoded
 xfonts-base
-xfonts-bolkhov-cp1251-75dpi
-xfonts-bolkhov-cp1251-misc
+# bookworm xfonts-bolkhov-cp1251-75dpi
+# bookworm xfonts-bolkhov-cp1251-misc
 xfonts-encodings
 xfonts-scalable
 xfonts-terminus
