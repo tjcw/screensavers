@@ -35,8 +35,27 @@ Then go back to Linux, set up a file tree matching what you see in
 the reference installation package, and use 'zip' to pack it all into
 one file. Then take this to your Windows system and test it.
 
-The reference zip files are supplied as part of the Lighthouse material. To
+The reference zip files are supplied as part of the Sourceforge material. To
 install these, download them to the target Windows system; unpack them with
 the built-in Windows function to unpack zip files, and run the insttaller
 executables. Then go to the screensaver selection screen and select one of
 the new screensavers which appear, either 'fr2' or 'gk2'.
+
+To build for Debian bookworm, it is currently necessary to apply a patch
+```
+tjcw@debian:/usr/lib/live/build$ git diff  binary_rootfs.0 binary_rootfs
+diff --git a/binary_rootfs.0 b/binary_rootfs
+index af8448d..080ee15 100755
+--- a/binary_rootfs.0
++++ b/binary_rootfs
+@@ -106,7 +106,7 @@ case "${LB_CHROOT_FILESYSTEM}" in
+                                dd if=/dev/zero of=chroot/filesystem.${LB_CHROOT_FILESYSTEM} bs=1024k count=0 seek=${REAL_DIM}
+ 
+                                FAKE_MTAB=false
+-                               if ! Chroot chroot "test -s /etc/mtab"
++                               if ! Chroot chroot "test -e /etc/mtab"
+                                then
+                                        Chroot chroot "ln -s /proc/mounts/mtab /etc/mtab"
+                                        FAKE_MTAB=true
+tjcw@debian:/usr/lib/live/build$
+```
