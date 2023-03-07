@@ -2,9 +2,9 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "QemuSaver"
-#define MyAppVersion "1.6"
-#define MyAppPublisher "Linuxtracker"
-#define MyAppURL "http://linuxtracker.org/"
+#define MyAppVersion "1.7"
+#define MyAppPublisher "Sourceforge"
+#define MyAppURL "https://sourceforge.net/projects/linux-screensavers-for-windows/"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
