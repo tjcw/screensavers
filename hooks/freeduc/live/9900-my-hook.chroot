@@ -7,7 +7,7 @@ cp -pr live-build/config/content/. .
 cd /var/cache/apt/archives && (
 dpkg --version >/tmp/dpkg.version
 COLUMNS=100 dpkg -l >/tmp/dpkg.dependencies
-awk '{ print $2 }' </tmp/dpkg.dependencies >/tmp/dpkg.inslist
+awk '{ if ( NR > 5 ) print $2 }' </tmp/dpkg.dependencies >/tmp/dpkg.inslist
 for p in $(</tmp/dpkg.inslist)
 do
   if [[ -r $(echo ${p}_*) ]]
