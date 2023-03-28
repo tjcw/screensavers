@@ -5,10 +5,14 @@ lb clean
 lb config --distribution=$2 --chroot-filesystem=ext4
 awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
    > config/package-lists/desktop.list.chroot
+# Patch for Debian bug 1032408 (see bugs.debian.org)
+patch -p1 -N -d /usr/lib/live/build </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/binary_rootfs.patch
+# Patch to display boot menu for 10 seconds before booting
+patch -p1 -N -d /usr/share/live/build/bootloaders/isolinux </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/isolinux.cfg.patch
 #cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/chroot \
    /usr/lib/live/build/chroot
-cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/isolinux.cfg \
-   /usr/share/live/build/bootloaders/isolinux/isolinux.cfg
+#cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/isolinux.cfg \
+#   /usr/share/live/build/bootloaders/isolinux/isolinux.cfg
 #cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/binary_grub_cfg \
 #   /usr/lib/live/build/binary_grub_cfg
 #cp /home/${SUDO_USER}/eclipse-workspace/screensavers/files/configuration.sh \

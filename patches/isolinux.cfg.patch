@@ -1,0 +1,10 @@
+diff --git a/isolinux.cfg b/isolinux.cfg.1
+index a3e3eab..9b0a179 100644
+--- a/isolinux.cfg
++++ b/isolinux.cfg.1
+@@ -1,4 +1,4 @@
+ include menu.cfg
+ default vesamenu.c32
+ prompt 0
+-timeout 0
++timeout 100
