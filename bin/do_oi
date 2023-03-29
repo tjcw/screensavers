@@ -4,7 +4,7 @@ patch -p1 -N -d /usr/lib/live/build </home/${SUDO_USER}/eclipse-workspace/screen
 # Patch to display boot menu for 10 seconds before booting
 patch -p1 -N -d /usr/share/live/build/bootloaders/isolinux </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/isolinux.cfg.patch
 PATH=/sbin:$PATH
-export LB_BOOTAPPEND_LIVE="boot=live components splash"
+export LB_BOOTAPPEND_LIVE="boot=live components splash noeject"
 lb clean
 lb config --distribution=$2 --chroot-filesystem=ext4
 awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
