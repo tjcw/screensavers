@@ -6,7 +6,7 @@ git clone git@github.com:jrsoftware/issrc.git
 # Fetch the rufus source
 git clone git@github.com:pbatard/rufus.git
 # Fetch the Debian source
-iso_dir=http://mirrorservice.org/sites/cdimage.debian.org/debian-cd/current/source/iso-dvd
+iso_dir=http://cdimage.debian.org/debian-cd/current/source/iso-dvd
 wget ${iso_dir}/SHA512SUMS
 while read sha512 name
 do
