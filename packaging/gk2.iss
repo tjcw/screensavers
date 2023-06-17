@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "QemuSaver-GamesKnoppix-2"
-#define MyAppVersion "1.6"
+#define MyAppVersion "1.5"
 #define MyAppPublisher "Sourceforge"
 #define MyAppURL "https://sourceforge.net/projects/linux-screensavers-for-windows/"
 
