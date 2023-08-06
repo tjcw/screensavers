@@ -1,0 +1,20 @@
+diff --git a/chroot_firmware b/chroot_firmware.1
+index e22068f..d061c42 100755
+--- a/chroot_firmware
++++ b/chroot_firmware.1
+@@ -54,10 +54,11 @@ Check_package host /usr/bin/wget wget
+ FIRMWARE_PACKAGES=""
+ 
+ # Manually add firmware-linux meta package if available
+-if [ $(apt-cache show "^firmware-linux$" 2> /dev/null | grep "^Package:" | wc -l) -eq 1 ]
+-then
+-	FIRMWARE_PACKAGES="${FIRMWARE_PACKAGES} firmware-linux"
+-fi
++# tjcw 20230806 firmware now in base install with debian 12.1
++#if [ $(apt-cache show "^firmware-linux$" 2> /dev/null | grep "^Package:" | wc -l) -eq 1 ]
++#then
++#	FIRMWARE_PACKAGES="${FIRMWARE_PACKAGES} firmware-linux"
++#fi
+ 
+ Firmware_List_From_Contents "${LB_PARENT_MIRROR_CHROOT}" "${LB_PARENT_DISTRIBUTION_CHROOT}" "${LB_PARENT_ARCHIVE_AREAS}"
+ 
