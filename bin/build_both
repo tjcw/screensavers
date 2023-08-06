@@ -6,10 +6,12 @@ function build_one
    mkdir -p "${stamp}/$1" &&
    cd "${stamp}/$1" &&
    /home/${SUDO_USER}/eclipse-workspace/screensavers/bin/do_oi "$1" bookworm 
+   ln live-image-amd64.hybrid.iso "../../isos/$1.iso"
   )
 }
 
 stamp="$(date +%Y%m%d-%H%M)"
+rm -f isos/freeduc-bookworm.iso isos/gk-bookworm.iso
+mkdir -p isos
 build_one freeduc-bookworm
 build_one gk-bookworm
-
