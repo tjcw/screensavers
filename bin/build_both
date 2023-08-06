@@ -10,6 +10,6 @@ function build_one
 }
 
 stamp="$(date +%Y%m%d-%H%M)"
-build_one freeduc_bookworm
-build_one gk_bookworm
+build_one freeduc-bookworm
+build_one gk-bookworm
 
