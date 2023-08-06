@@ -1,8 +1,9 @@
 #!/bin/bash -x
 # Patch for Debian bug 1032408 (see bugs.debian.org)
 patch -p1 -N -d /usr/lib/live/build </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/binary_rootfs.patch
-# Patch for Debian bug 1043133 (see bugs.debian.org)
-patch -p1 -N -d /usr/lib/live/build </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/firmware-linux.patch
+# Patches for Debian bug 1043133 (see bugs.debian.org)
+patch -p1 -N -d /usr/lib/live/build </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/chroot_firmware.patch
+patch -p1 -N -d /usr/lib/live/build </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/installer_debian-installer.patch
 # Patch to display boot menu for 10 seconds before booting
 patch -p1 -N -d /usr/share/live/build/bootloaders/isolinux </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/isolinux.cfg.patch
 PATH=/sbin:$PATH
