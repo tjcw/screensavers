@@ -1,0 +1,41 @@
+diff --git a/./chroot_firmware b/home/tjcw/live-build/chroot_firmware
+index e22068f..6272c9e 100755
+--- a/./chroot_firmware
++++ b/home/tjcw/live-build/chroot_firmware
+@@ -54,10 +54,11 @@ Check_package host /usr/bin/wget wget
+ FIRMWARE_PACKAGES=""
+
+ # Manually add firmware-linux meta package if available
+-if [ $(apt-cache show "^firmware-linux$" 2> /dev/null | grep "^Package:" | wc -l) -eq 1 ]
+-then
+-       FIRMWARE_PACKAGES="${FIRMWARE_PACKAGES} firmware-linux"
+-fi
++# 20230806 tjcw firmware-linux no longer shipped as separate package
++#if [ $(apt-cache show "^firmware-linux$" 2> /dev/null | grep "^Package:" | wc -l) -eq 1 ]
++#then
++#      FIRMWARE_PACKAGES="${FIRMWARE_PACKAGES} firmware-linux"
++#fi
+
+ Firmware_List_From_Contents "${LB_PARENT_MIRROR_CHROOT}" "${LB_PARENT_DISTRIBUTION_CHROOT}" "${LB_PARENT_ARCHIVE_AREAS}"
+
+diff --git a/./installer_debian-installer b/home/tjcw/live-build/installer_debian-installer
+index c28b516..edc5edb 100755
+--- a/./installer_debian-installer
++++ b/home/tjcw/live-build/installer_debian-installer
+@@ -402,10 +402,11 @@ then
+                FIRMWARE_PACKAGES=""
+
+                # Manually add firmware-linux meta package if available
+-               if [ $(apt-cache show "^firmware-linux$" 2> /dev/null | grep "^Package:" | wc -l) -eq 1 ]
+-               then
+-                       FIRMWARE_PACKAGES="${FIRMWARE_PACKAGES} firmware-linux"
+-               fi
++                # 20230806 tjcw no firmware-linux any more
++               #if [ $(apt-cache show "^firmware-linux$" 2> /dev/null | grep "^Package:" | wc -l) -eq 1 ]
++               #then
++               #       FIRMWARE_PACKAGES="${FIRMWARE_PACKAGES} firmware-linux"
++               #fi
+
+                Firmware_List_From_Contents "${LB_PARENT_MIRROR_CHROOT}" "${LB_PARENT_DISTRIBUTION_CHROOT}" "${LB_PARENT_ARCHIVE_AREAS}"
+
+
