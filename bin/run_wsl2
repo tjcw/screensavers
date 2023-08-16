@@ -1,4 +1,7 @@
 #!/bin/bash
+# This assumes you have VcXsrv configured. You can get this from
+# https://sourceforge.net/projects/vcxsrv/
+# do not forget to allow VcXsrv in the Windows firewall settings: Windows Security -> Firewall & network protection -> Allow an app through firewall -> make sure VcXsrv has both public and private checked.
 
 export DISPLAY=$(ip route|awk '/^default/{print $3}'):0.0
 xfce4-session
