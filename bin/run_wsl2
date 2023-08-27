@@ -2,6 +2,19 @@
 # This assumes you have VcXsrv configured. You can get this from
 # https://sourceforge.net/projects/vcxsrv/
 # do not forget to allow VcXsrv in the Windows firewall settings: Windows Security -> Firewall & network protection -> Allow an app through firewall -> make sure VcXsrv has both public and private checked.
+# Also it is necessary to follow the instructions here
+# https://learn.microsoft.com/en-us/windows/wsl/wsl-config
+# i.e. put the lines
+#
+# [wsl2]
+# guiApplications=false
+#
+# into file .wslconfig in your Windows home directory. This works for both
+# windows10 and windows11
+# Affer changing this file you need to 
+# wsl --shutdown
+# and wait 8 seconds before restarting debian, in order to get wsl2 to pick up
+# the values from .wslconfig
 
 export DISPLAY=$(ip route|awk '/^default/{print $3}'):0.0
 xfce4-session
