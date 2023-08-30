@@ -2380,7 +2380,7 @@ xscreensaver-data
 xscreensaver-data-extra
 xorg
 xskat
-xsnow
+#xsnow
 xtel
 xterm
 xtrans-dev
