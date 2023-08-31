@@ -1,4 +1,4 @@
-# screensavers
+# Linux Screensavers for Microsoft Windows
 
 Scripts and tooling to create Live Linux distributions and turn them into
 screensavers for use on Microsoft Windows systems.
@@ -6,7 +6,7 @@ screensavers for use on Microsoft Windows systems.
 I was rather taken with freeduc-cd 1.4.1 (still available from
 https://sourceforge.net/projects/ofset/files/freeduc-cd/1.4.1/ )
 and GamesKnoppix ( http://mirrors.sandino.net/knoppix/GamesKnoppix-3.7-0.2-EN/ )
-and I wondered whether they coud be brought up to date. 
+and I wondered whether they could be brought up to date. 
 Most of the source is nowadays part of Debian, so I extracted the list of
 packages with 'dpkg' by running each in a VM and scp-ing the output to the
 hosting machine; I needed to use a CentOS 8 host because most linux
@@ -42,21 +42,8 @@ the built-in Windows function to unpack zip files, and run the insttaller
 executables. Then go to the screensaver selection screen and select one of
 the new screensavers which appear, either 'fr2' or 'gk2'.
 
-To build for Debian bookworm, it is currently necessary to apply a patch
-```
-tjcw@debian:/usr/lib/live/build$ git diff  binary_rootfs.0 binary_rootfs
-diff --git a/binary_rootfs.0 b/binary_rootfs
-index af8448d..080ee15 100755
---- a/binary_rootfs.0
-+++ b/binary_rootfs
-@@ -106,7 +106,7 @@ case "${LB_CHROOT_FILESYSTEM}" in
-                                dd if=/dev/zero of=chroot/filesystem.${LB_CHROOT_FILESYSTEM} bs=1024k count=0 seek=${REAL_DIM}
- 
-                                FAKE_MTAB=false
--                               if ! Chroot chroot "test -s /etc/mtab"
-+                               if ! Chroot chroot "test -e /etc/mtab"
-                                then
-                                        Chroot chroot "ln -s /proc/mounts/mtab /etc/mtab"
-                                        FAKE_MTAB=true
-tjcw@debian:/usr/lib/live/build$
-```
+I also have tools to install and run these distributions in Microsoft's Windows Subsystem
+for Linux (WSL2). To do this, follow instructions in bin/run_wsl2. You will need to 
+install a Debian Linux distribution in WSL2, use the script bin/setup_wsl2 to install
+the open source games and/or educational packages, and use bin/run_wsl2 to run the software
+
