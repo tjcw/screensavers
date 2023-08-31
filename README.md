@@ -45,5 +45,5 @@ the new screensavers which appear, either 'fr2' or 'gk2'.
 I also have tools to install and run these distributions in Microsoft's Windows Subsystem
 for Linux (WSL2). To do this, follow instructions in bin/run_wsl2. You will need to 
 install a Debian Linux distribution in WSL2, use the script bin/setup_wsl2 to install
-the open source games and/or educational packages, and use bin/run_wsl2 to run the software
+the open source games and/or educational packages, and use bin/run_wsl2 to run the software.
 
