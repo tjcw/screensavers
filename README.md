@@ -21,6 +21,8 @@ empty directory, and run this script as
 or
   sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi gk bullseye
 
+For this, you need a Debian 12 or newer system as a real or virtual machine.
+
 This results in an 'iso' which can be run in a VM or booted on a real
 system. But I wanted to run it as a screensaver for Windows, so I have
 a further set of tools which packages it with qemu on a Windows system.
