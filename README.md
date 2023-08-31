@@ -32,8 +32,8 @@ system. But I wanted to run it as a screensaver for Windows, so I have
 a further set of tools which packages it with qemu on a Windows system.
 
 To use these tools, go to a Microsoft Windows system, install cygwin
-with the 'mingw' compilers (86_64-w64-mingw32-gcc) and install 
-inno setup. With these and the contents of the 'packaging' directory
+with the 'mingw' compilers (x86_64-w64-mingw32-gcc) and install 
+inno setup from https://jrsoftware.org/isinfo.php . With these and the contents of the 'packaging' directory
 you can build a screensaver wrapper for 'qemu', and a package for
 installation in the usual way for Windows.
 
