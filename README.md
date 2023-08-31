@@ -17,9 +17,13 @@ Then I found the live-build package. I wrote a
 script scripts/bin/do_oi to build a suitable Live Linux iso. To run this,
 you should 'git clone' this repo under ~/eclipse-workspace ; then go to an
 empty directory, and run this script as
-  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi freeduc bullseye
+
+  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi freeduc-bookworm bookworm
+
 or
-  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi gk bullseye
+
+  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi gk-bookworm bookworm
+
 
 For this, you need a Debian 12 or newer system as a real or virtual machine.
 
