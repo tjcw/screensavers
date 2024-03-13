@@ -42,7 +42,7 @@ bb
 bc
 bin86
 bind9-host
-bing
+# testing bing
 binutils
 binutils-common:amd64
 binutils-dev
@@ -155,7 +155,7 @@ e2fsprogs
 easy-rsa
 ed
 efax
-efax-gtk
+# testing efax-gtk
 eject
 elinks
 elinks-data
@@ -224,9 +224,9 @@ gawk
 gcc
 #gcc-8
 #gcc-8-base:amd64
-gconf-service
+# testing gconf-service
 # testing gconf2
-gconf2-common
+# testing gconf2-common
 gdal-data
 gdb
 gdisk
@@ -431,7 +431,7 @@ kwayland-data
 kwayland-integration:amd64
 laptop-detect
 lbreakout2
-lbreakout2-data
+# testing lbreakout2-data
 less
 lftp
 lgc-pg
@@ -2119,7 +2119,7 @@ python3-urllib3
 python3-xdg
 #python3.7
 #python3.7-minimal
-qdbus
+# testing qdbus
 qjackctl
 qml-module-org-kde-bluezqt:amd64
 qml-module-org-kde-games-core
