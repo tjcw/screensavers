@@ -10,7 +10,7 @@ alsa-utils
 #apache2-bin
 #apache2-data
 #apache2-utils
-apbs
+#trixie apbs
 apt
 apt-utils
 arch-test
@@ -22,7 +22,8 @@ attr
 audacity
 audacity-data
 aumix-common
-aumix-gtk
+# trixie aumix-gtk
+aumix
 autoconf
 autofs
 automake
@@ -247,9 +248,9 @@ gcc
 # bookworm gcompris
 gcompris-qt
 gcompris-qt-data
-gconf-service
-gconf2
-gconf2-common
+#trixie gconf-service
+#trixie gconf2
+#trixie gconf2-common
 gcr
 gdal-bin
 gdal-data
@@ -285,9 +286,9 @@ gnome-keyring-pkcs11:amd64
 gnuchess
 gnuchess-book
 gnuhtml2latex
-gnumeric
-gnumeric-common
-gnumeric-doc
+#trixie gnumeric
+#trixie gnumeric-common
+#trixie gnumeric-doc
 gnupg
 gnupg-l10n
 gnupg-utils
@@ -315,7 +316,7 @@ grass-gui
 grep
 groff
 groff-base
-gscanbus
+#trixie gscanbus
 gsettings-desktop-schemas
 gsfonts
 gsfonts-x11
@@ -330,7 +331,7 @@ gtk-update-icon-cache
 # gtk2-engines-xfce
 gtkam
 gtklp
-gtkmorph
+#trixie gtkmorph
 guile-2.2-libs:amd64
 gv
 gzip
@@ -1624,7 +1625,9 @@ mesa-va-drivers:amd64
 mesa-vdpau-drivers:amd64
 mgp
 mikmod
-mime-support
+#trixie mime-support
+media-types
+mailcap
 minisat
 # mknbi
 mount
@@ -1652,7 +1655,9 @@ octave
 octave-common
 octave-doc
 odbcinst
-odbcinst1debian2:amd64
+#trixie odbcinst1debian2:amd64
+unixodbc-common
+libodbcinst2
 openbabel
 # bookworm openjdk-11-jre-headless:amd64
 openmpi-bin
@@ -1674,9 +1679,9 @@ pari-seadata
 parted
 passwd
 patch
-pcb
-pcb-common
-pcb-gtk
+# trixie pcb
+#trixie pcb-common
+#trixie pcb-gtk
 pciutils
 pdf2djvu
 perl
@@ -1809,11 +1814,11 @@ python3-pytest-doctestplus
 python3-pytest-openfiles
 python3-pytest-remotedata
 python3-scipy
-python3-sip
+#trixie python3-sip
 python3-six
 # python3.7
 # python3.7-minimal
-qdbus
+#trixie qdbus
 qjackctl
 qml-module-org-kde-kirigami2
 qml-module-org-kde-newstuff
@@ -1865,14 +1870,14 @@ scribus-data
 sed
 sensible-utils
 setserial
-sextractor
+#trixie sextractor
 sgml-base
 sgml-data
 shared-mime-info
 sharutils
 sketch
 sketch-doc
-slib
+#trixie slib
 smbclient
 solfege
 sonnet-plugins
@@ -1886,8 +1891,8 @@ sudo
 sunclock
 sunclock-maps
 sylfilter
-sylpheed
-sylpheed-i18n
+#trixie sylpheed
+#trixie sylpheed-i18n
 symlinks
 synaptic
 systemd
@@ -1907,7 +1912,8 @@ texlive-fonts-recommended
 texlive-latex-base
 texlive-latex-recommended
 texlive-pictures
-tftp
+#trixie tftp
+tftp-hpa
 tftpd-hpa
 thunar
 thunar-data
