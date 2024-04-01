@@ -1,6 +1,6 @@
-abiword
-abiword-common
-abiword-plugin-grammar:amd64
+# trixie abiword
+# trixie abiword-common
+# trixie abiword-plugin-grammar:amd64
 acl
 adduser
 adwaita-icon-theme
@@ -25,7 +25,7 @@ aumix-common
 # trixie aumix-gtk
 aumix
 autoconf
-autofs
+# trixie autofs
 automake
 autotools-dev
 base-passwd
@@ -1591,7 +1591,7 @@ libzzip-0-13:amd64
 lightdm
 lightdm-gtk-greeter
 lincity
-link-grammar-dictionaries-en
+# trixie link-grammar-dictionaries-en
 linux-libc-dev:amd64
 lmodern
 localepurge
@@ -1709,7 +1709,7 @@ pppconfig
 pppoe
 pppoeconf
 pptp-linux
-printer-driver-all
+# trixie printer-driver-all
 printer-driver-brlaser
 printer-driver-c2050
 printer-driver-c2esp
@@ -1719,7 +1719,7 @@ printer-driver-escpr
 printer-driver-foo2zjs
 printer-driver-foo2zjs-common
 printer-driver-fujixerox
-printer-driver-gutenprint
+# trixie printer-driver-gutenprint
 printer-driver-hpcups
 printer-driver-hpijs
 printer-driver-m2300w
