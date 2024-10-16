@@ -2,9 +2,9 @@
 mkdir -p ~/assembly/QemuSaverOpen/unzip/extras ~/assembly/GamesKnoppix2/unzip/extras
 mv ~/eclipse-workspace/screensavers/packaging/qemu ~/assembly/QemuSaverOpen/unzip/
 cp ~/eclipse-workspace/screensavers/packaging/Output/QemuSaverOpenSetup.exe ~/assembly/QemuSaverOpen/unzip/
-cp ~/eclipse-workspace/screensavers/packaging/fr2.exe ~/assembly/QemuSaverOpen/unzip/extras/
+cp ~/eclipse-workspace/screensavers/packaging/fr2.scr ~/assembly/QemuSaverOpen/unzip/extras/
 ln ~/lb/isos/freeduc-bookworm.iso ~/assembly/QemuSaverOpen/unzip/extras/fr2.iso
 
 cp ~/eclipse-workspace/screensavers/packaging/Output/GamesKnoppix2Setup.exe ~/assembly/GamesKnoppix2/unzip/
-cp ~/eclipse-workspace/screensavers/packaging/gk2.exe ~/assembly/GamesKnoppix2/unzip/extras/
+cp ~/eclipse-workspace/screensavers/packaging/gk2.scr ~/assembly/GamesKnoppix2/unzip/extras/
 ln ~/lb/isos/gk-bookworm.iso ~/assembly/QemuSaverOpen/unzip/extras/gk2.iso
