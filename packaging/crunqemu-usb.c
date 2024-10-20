@@ -31,7 +31,7 @@ int main(int argc, char **argv)
   buffer[l] = 0 ;
   while(l > 0 && buffer[l] != '\\' ) l -= 1 ;
   char cmd[1000] ;
-  sprintf(cmd,"qemu-system-x86_64 -cdrom %s.iso -m 1024 -usb -device usb-tablet",buffer+l+1) ;
+  sprintf(cmd,"qemu-system-x86_64 -cdrom %s.iso -m 1024 -usb -device usb-tablet -full-screen",buffer+l+1) ;
   if ( k_Debug ) {
     printf("Command is %s\n",cmd) ;
     fflush(stdout) ;
