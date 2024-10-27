@@ -5,7 +5,7 @@ screensavers for use on Microsoft Windows systems.
 
 I was rather taken with freeduc-cd 1.4.1 (still available from
 https://sourceforge.net/projects/ofset/files/freeduc-cd/1.4.1/ )
-and GamesKnoppix ( http://mirrors.sandino.net/knoppix/GamesKnoppix-3.7-0.2-EN/ )
+and GamesKnoppix ( https://archive.org/details/gamesknoppix )
 and I wondered whether they could be brought up to date. 
 Most of the source is nowadays part of Debian, so I extracted the list of
 packages with 'dpkg' by running each in a VM and scp-ing the output to the
@@ -18,16 +18,11 @@ script scripts/bin/do_oi to build a suitable Live Linux iso. To run this,
 you should 'git clone' this repo under ~/eclipse-workspace ; then go to an
 empty directory, and run this script as
 
-  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi freeduc-bookworm bookworm
-
-or
-
-  sudo ~/eclipse-workspace/screensavers/scripts/bin/do_oi gk-bookworm bookworm
-
+  sudo ~/eclipse-workspace/screensavers/scripts/bin/buiild_both
 
 For this, you need a Debian 12 or newer system as a real or virtual machine.
 
-This results in an 'iso' which can be run in a VM or booted on a real
+This results in two 'iso's which can be run in a VM or booted on a real
 system. But I wanted to run it as a screensaver for Windows, so I have
 a further set of tools which packages it with qemu on a Windows system.
 
@@ -40,6 +35,8 @@ installation in the usual way for Windows.
 Then go back to Linux, set up a file tree matching what you see in
 the reference installation package, and use 'zip' to pack it all into
 one file. Then take this to your Windows system and test it.
+
+If you only have a Windows system, the Linux parts of the above instrucitons can be run under WSL2 (Windows Subsystem for Linux Version 2).
 
 The reference zip files are supplied as part of the Sourceforge material at 
 https://sourceforge.net/projects/linux-screensavers-for-windows/files/release1/ . 
