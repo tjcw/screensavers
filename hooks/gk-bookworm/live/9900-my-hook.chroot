@@ -3,6 +3,7 @@ echo "--- Running hook ---"
 pwd
 echo "ok" >okfile
 mount
+find / -name splash.png -ls
 for tarball in live-build/config/content/*.tar
 do tar -xf ${tarball}
 done
