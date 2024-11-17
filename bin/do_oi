@@ -8,6 +8,8 @@ patch -p1 -N -d /usr/lib/live/build </home/${SUDO_USER}/eclipse-workspace/screen
 patch -p1 -N -d /usr/share/live/build/bootloaders/isolinux </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/isolinux.cfg.patch
 # Patch to allow revised boot background image
 #patch -p1 -N -d /usr/share/live/build/bootloaders/syslinux_common </home/${SUDO_USER}/eclipse-workspace/screensavers/patches/stdmenu.cfg.patch
+# Set up boot splash
+cp /home/${SUDO_USER}/eclipse-workspace/screensavers/svgs/facesplash.svg /usr/share/live/build/bootloaders/syslinux_common/splash.svg
 PATH=/sbin:$PATH
 export LB_BOOTAPPEND_LIVE="boot=live components splash noeject"
 lb clean
