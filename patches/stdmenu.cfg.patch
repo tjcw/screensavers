@@ -1,0 +1,9 @@
+diff -Naur a/stdmenu.cfg b/stdmenu.cfg
+--- a/stdmenu.cfg	2024-11-17 02:21:13.367895430 +0000
++++ b/stdmenu.cfg	2024-11-17 02:22:04.203876012 +0000
+@@ -1,4 +1,4 @@
+-menu background splash.png
++menu background splashface.png
+ menu color title	* #FFFFFFFF *
+ menu color border	* #00000000 #00000000 none
+ menu color sel		* #ffffffff #76a1d0ff *
