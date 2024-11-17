@@ -5,7 +5,7 @@ echo "ok" >okfile
 mount
 find / -name splash.png -ls
 for tarball in live-build/config/content/*.tar
-do tar -xf ${tarball}
+do tar -xC / -f ${tarball}
 done
 #cp -pr live-build/config/content/. .
 cd /var/cache/apt/archives && (
