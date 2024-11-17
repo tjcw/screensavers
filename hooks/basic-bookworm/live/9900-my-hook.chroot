@@ -3,9 +3,10 @@ echo "--- Running hook ---"
 pwd
 echo "ok" >okfile
 mount
+pwd
 find / -name splash.png -ls
 for tarball in live-build/config/content/*.tar
-do tar -xC / -f ${tarball}
+do tar -xf ${tarball}
 done
 #cp -pr live-build/config/content/. .
 cd /var/cache/apt/archives && (
@@ -26,5 +27,5 @@ do
 done >/tmp/dpkg.depdetail
 ) </dev/null
 
-bash
+#bash
 exit 0
