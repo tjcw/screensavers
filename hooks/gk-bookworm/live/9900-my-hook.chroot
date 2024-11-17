@@ -8,7 +8,7 @@ find / -name splash.png -ls
 for tarball in live-build/config/content/*.tar
 do tar -xf ${tarball}
 done
-#cp -pr live-build/config/content/. .
+cp -pr live-build/config/content-files/. .
 cd /var/cache/apt/archives && (
 dpkg --version >/tmp/dpkg.version
 COLUMNS=100 dpkg -l >/tmp/dpkg.dependencies
