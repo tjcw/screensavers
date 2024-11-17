@@ -50,3 +50,4 @@ for Linux (WSL2). To do this, follow instructions in bin/run_wsl2. You will need
 install a Debian Linux distribution in WSL2, use the script bin/setup_wsl2 to install
 the open source games and/or educational packages, and use bin/run_wsl2 to run the software.
 
+The screensavers can be used as a digital billboard. For this you need to plug in 2 SVG files, one to display on the boot splash screen and one to display on the screensaver wallpaper. The splash screen is at svgs/splash.svg and the wallpaper is at content/common-files/home/user/face . You can use open source 'inkscape' to edit them, or I am told Adobe tooling also works.
