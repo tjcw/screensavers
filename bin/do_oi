@@ -18,7 +18,8 @@ awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /
    > config/package-lists/desktop.list.chroot
 mkdir -p config/hooks
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/hooks/$1/. config/hooks/
-mkdir -p config/content
+mkdir -p config/content config/content-files
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/$1/. config/content/
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/. config/content/
+cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common-files/. config/content-files/
 lb build 
