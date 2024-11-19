@@ -14,13 +14,14 @@ distributions nowadays do not recognise the ancient ciphers which were in
 use then.
 
 Then I found the live-build package. I wrote a
-script scripts/bin/do_oi to build a suitable Live Linux iso. To run this,
+script bin/do_oi to build a suitable Live Linux iso. To run this,
 you should 'git clone' this repo under ~/eclipse-workspace ; then go to an
 empty directory, and run this script as
 
-  sudo ~/eclipse-workspace/screensavers/scripts/bin/buiild_both
+  sudo ~/eclipse-workspace/screensavers/bin/build_both
 
-For this, you need a Debian 12 or newer system as a real or virtual machine.
+For this, you need a Debian 12 or newer system as a real or virtual machine, or
+under Microsoft Windows WSL2.
 
 This results in two 'iso's which can be run in a VM or booted on a real
 system. But I wanted to run it as a screensaver for Windows, so I have
