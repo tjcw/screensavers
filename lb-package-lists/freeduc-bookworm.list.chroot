@@ -2019,7 +2019,9 @@ xscavenger
 xscreensaver
 xscreensaver-data
 xscreensaver-data-extra
-wayland
+wayland-protocols
+wayland-scanner++
+wayland-utils
 xterm
 xtv
 xutils
