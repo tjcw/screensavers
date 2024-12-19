@@ -3358,4 +3358,5 @@ Source: "{src}\qemu\./VERSION"; DestDir: "{app}\."; Flags: ignoreversion externa
 Source: "{src}\qemu\./zlib1.dll"; DestDir: "{app}\."; Flags: ignoreversion external
 Source: "{src}\extras\fr2.iso"; DestDir: "{app}\..\QemuSaver"; Flags: ignoreversion external
 Source: "{src}\extras\fr2.scr"; DestDir: "{sys}"; Flags: ignoreversion external
+Source: "{src}\extras\fr2n.scr"; DestDir: "{sys}"; Flags: ignoreversion external
 ; NOTE: Don't use Flags: ignoreversion on any shared system files

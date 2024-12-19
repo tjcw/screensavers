@@ -35,4 +35,5 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 [Files]
 Source: "{src}\extras\gk2.iso"; DestDir: "{app}\..\QemuSaver"; Flags: ignoreversion external
 Source: "{src}\extras\gk2.scr"; DestDir: "{sys}"; Flags: ignoreversion external
+Source: "{src}\extras\gk2n.scr"; DestDir: "{sys}"; Flags: ignoreversion external
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
