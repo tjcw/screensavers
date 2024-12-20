@@ -33,17 +33,36 @@ int main(int argc, char **argv) {
       printf("cd returns %d errno=%d\n", cdrc, errno);
       fflush(stdout);
     }
+    /*
+     * argv[0] is the name by which the program was invoked
+     */
     strcpy(buffer, argv[0]);
+    /*
+     * Strip off the extension (.scr)
+     */
     int l = strlen(buffer);
     while (l > 0 && buffer[l] != '.') {
       l -= 1;
     }
-    buffer[l] = 0;
+    /*
+     * If the last letter is 'n' we want a no-net version
+     */
+    int nonet = ( l > 0 ) && ( buffer[l-1] == 'n' ) ;
+    /*
+     * Put in the string terminator
+     */
+    if ( nonet ) {
+      buffer[l-1] = 0;
+    } else {
+      buffer[l] = 0;
+    }
     while (l > 0 && buffer[l] != '\\')
       l -= 1;
     char cmd[1000];
     sprintf(cmd,
-            "qemu-system-x86_64 -cdrom %s.iso -m 1024 -usb -device usb-tablet",
+      nonet
+      ? "qemu-system-x86_64 -cdrom %s.iso -m 1024 -usb -device usb-tablet -nic none"
+      : "qemu-system-x86_64 -cdrom %s.iso -m 1024 -usb -device usb-tablet",
             buffer + l + 1);
     if (k_Debug) {
       printf("Command is %s\n", cmd);
