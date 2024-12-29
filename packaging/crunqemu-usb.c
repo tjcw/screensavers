@@ -61,8 +61,8 @@ int main(int argc, char **argv) {
     char cmd[1000];
     sprintf(cmd,
       nonet
-      ? "qemu-system-x86_64 -cdrom %s.iso -m 1024 -usb -device usb-tablet -nic none"
-      : "qemu-system-x86_64 -cdrom %s.iso -m 1024 -usb -device usb-tablet",
+      ? "qemu-system-x86_64 -cdrom %s.iso -m 2048 -smp 4 -usb -device usb-tablet -nic none"
+      : "qemu-system-x86_64 -cdrom %s.iso -m 2048 -smp 4 -usb -device usb-tablet",
             buffer + l + 1);
     if (k_Debug) {
       printf("Command is %s\n", cmd);
