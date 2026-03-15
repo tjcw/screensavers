@@ -37,10 +37,10 @@ mkdir -p config/content config/content-files
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/$1/. config/content/
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/. config/content/
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common-files/. config/content-files/
-lb build 
+lb build ${EXTRA_LB_ARGS)
 for i in $(seq 1 10)
 do
    echo "Build pass $i"
-   [[ -r live-image-amd64.hybrid.iso ]] || lb build
+   [[ -r live-image-amd64.hybrid.iso ]] || lb build ${EXTRA_LB_ARGS}
    echo "End build pass $i"
 done
