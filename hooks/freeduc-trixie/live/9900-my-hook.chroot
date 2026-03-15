@@ -1,0 +1,31 @@
+#!/bin/bash -x
+echo "--- Running hook ---"
+pwd
+echo "ok" >okfile
+mount
+pwd
+find / -name splash.png -ls
+for tarball in live-build/config/content/*.tar
+do tar -xf ${tarball}
+done
+cp -pr live-build/config/content-files/. .
+cd /var/cache/apt/archives && (
+dpkg --version >/tmp/dpkg.version
+COLUMNS=100 dpkg -l >/tmp/dpkg.dependencies
+awk '{ if ( NR > 5 ) print $2 }' </tmp/dpkg.dependencies >/tmp/dpkg.inslist
+for p in $(</tmp/dpkg.inslist)
+do
+  if [[ -r $(echo ${p}_*) ]]
+  then
+    dpkg --info $(echo ${p}_*)|grep Depends
+  fi
+done >/tmp/dpkg.deplist
+
+for p in $(</tmp/dpkg.inslist)
+do
+  dpkg -p $p  
+done >/tmp/dpkg.depdetail
+) </dev/null
+
+#bash
+exit 0

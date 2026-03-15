@@ -20,13 +20,13 @@ function build_one
   (
    mkdir -p "${stamp}/$1" &&
    cd "${stamp}/$1" &&
-   /home/${SUDO_USER}/eclipse-workspace/screensavers/bin/do_oi "$1" bookworm 
+   /home/${SUDO_USER}/eclipse-workspace/screensavers/bin/do_oi "$1" trixie 
    ln live-image-amd64.hybrid.iso "../../isos/$1.iso"
   )
 }
 
 stamp="$(date +%Y%m%d-%H%M)"
-rm -f isos/freeduc-bookworm.iso isos/gk-bookworm.iso
+rm -f isos/freeduc-trixie.iso isos/gk-trixie.iso
 mkdir -p isos
-build_one freeduc-bookworm
-build_one gk-bookworm
+build_one freeduc-trixie
+build_one gk-trixie
