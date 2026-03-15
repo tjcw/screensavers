@@ -38,3 +38,9 @@ cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/$1/. config/cont
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/. config/content/
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common-files/. config/content-files/
 lb build 
+for i in $(seq 1 10)
+do
+   echo "Build pass $i"
+   [[ -r live-image-amd64.hybrid.iso ]] || lb build
+   echo "End build pass $i"
+done
