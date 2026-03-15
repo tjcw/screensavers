@@ -88,7 +88,7 @@ debfoster
 debian-archive-keyring
 debianutils
 debootstrap
-deborphan
+# trixie deborphan
 debsums
 default-jre-headless
 desktop-file-utils
@@ -161,7 +161,7 @@ dump
 e2fsprogs
 ed
 eject
-elvis-tiny
+# trixie elvis-tiny
 emacsen-common
 # enchant
 epstool
@@ -264,7 +264,7 @@ gfortran
 # gfortran-8
 gftp
 gftp-common
-gftp-gtk
+# trixie gftp-gtk
 gftp-text
 ghostscript
 ghostscript-x
@@ -296,7 +296,7 @@ gnuplot
 gnuplot-data
 gnuplot-qt
 gocr
-gpa
+# trixie gpa
 gpart
 gperiodic
 gpg
@@ -326,7 +326,7 @@ gstreamer1.0-plugins-base:amd64
 gstreamer1.0-plugins-good:amd64
 gstreamer1.0-pulseaudio:amd64
 gstreamer1.0-x:amd64
-gtans
+# trixie gtans
 gtk-update-icon-cache
 # gtk2-engines-xfce
 gtkam
@@ -350,7 +350,7 @@ icoutils
 ifupdown
 imagemagick
 imagemagick-6-common
-imagemagick-6.q16
+# trixie imagemagick-6.q16
 indi-bin
 inetutils-inetd
 inetutils-syslogd
@@ -396,7 +396,8 @@ krb5-locales
 kstars
 kstars-data
 ktuberling
-kwayland-data
+# trixie kwayland-data
+kwayland5-data
 kwayland-integration:amd64
 ldap-utils
 less
@@ -1608,7 +1609,7 @@ lynx-common
 m4
 mailutils
 mailutils-common
-makedev
+# trixie makedev
 man-db
 manpages
 manpages-dev
@@ -1700,7 +1701,9 @@ pinentry-gtk2
 # plasma-scriptengine-javascript
 playmidi
 po-debconf
-policykit-1
+# trixie policykit-1
+polkitd
+pkexec
 poppler-data
 poppler-utils
 powermgmt-base
@@ -1788,11 +1791,11 @@ python3-cairo:amd64
 python3-configobj
 python3-decorator
 python3-distro
-python3-distutils
+# trixie python3-distutils
 python3-exif
 python3-gi
 python3-gi-cairo
-python3-lib2to3
+# trixie python3-lib2to3
 python3-minimal
 python3-more-itertools
 python3-numpy
@@ -1861,7 +1864,7 @@ samba-common
 samba-common-bin
 samba-dsdb-modules:amd64
 samba-libs:amd64
-sane
+# trixie sane
 sane-utils
 sash
 scite
@@ -2030,7 +2033,7 @@ xterm
 xtv
 xutils
 xz-utils
-xzoom
+# trixie xzoom
 yacas
 yacas-doc
 yelp
