@@ -154,7 +154,7 @@ docbook-xsl
 dosfstools
 dpkg
 dpkg-repack
-drgeo-doc
+# trixie drgeo-doc
 drkonqi
 dselect
 dump
