@@ -20,7 +20,7 @@ function build_one
   (
    mkdir -p "${stamp}/$1" &&
    cd "${stamp}/$1" &&
-   /home/${SUDO_USER}/eclipse-workspace/screensavers/bin/do_oi "$1" trixie 
+   /home/${SUDO_USER}/eclipse-workspace/screensavers/bin/do_oi_ws "$1" trixie 
    ln live-image-amd64.hybrid.iso "../../isos/$1.iso"
   )
 }
