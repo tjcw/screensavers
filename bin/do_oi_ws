@@ -19,6 +19,7 @@ patch -p1 -N -d /home/${SUDO_USER}/eclipse-workspace/live-build/share/bootloader
 # Set up boot splash
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/svgs/facesplash.svg /home/${SUDO_USER}/eclipse-workspace/live-build/share/bootloaders/splash.svg
 PATH=/sbin:$PATH
+export LB_APT_SECURE=false
 export LB_BOOTAPPEND_LIVE="boot=live components splash noeject"
 lb clean
 lb config --distribution=$2 --chroot-filesystem=ext4
