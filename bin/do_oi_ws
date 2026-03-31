@@ -20,6 +20,10 @@ patch -p1 -N -d /home/${SUDO_USER}/eclipse-workspace/live-build/share/bootloader
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/svgs/facesplash.svg /home/${SUDO_USER}/eclipse-workspace/live-build/share/bootloaders/splash.svg
 PATH=/sbin:$PATH
 export LB_APT_SECURE=false
+# Point at debootstrap
+PATH=/home/${SUDO_USER}/eclipse-workspace/debootstrap:$PATH
+#export LB_ARCHITECTURE=amd64
+export DEBOOTSTRAP_DIR=/home/${SUDO_USER}/eclipse-workspace/debootstrap
 export LB_BOOTAPPEND_LIVE="boot=live components splash noeject"
 lb clean
 lb config --distribution=$2 --chroot-filesystem=ext4
