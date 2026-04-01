@@ -20,7 +20,7 @@ empty directory, and run this script as
 
   sudo ~/eclipse-workspace/screensavers/bin/build_both
 
-For this, you need a Debian 13 or newer system as a real or virtual machine, or
+For this, you need a Debian testing (forky, 14)  or newer system as a real or virtual machine, or
 under Microsoft Windows WSL2.
 
 This results in two 'iso's which can be run in a VM or booted on a real
