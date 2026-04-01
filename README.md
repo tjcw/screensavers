@@ -56,7 +56,11 @@ https://sourceforge.net/projects/linux-screensavers-for-windows/files/release1/ 
 To install these, download them to the target Windows system; unpack them with
 the built-in Windows function to unpack zip files, and run the insttaller
 executables. Then go to the screensaver selection screen and select one of
-the new screensavers which appear, either 'fr2' or 'gk2'.
+the new screensavers which appear, either 'fr2' or 'gk2'. These versions of
+the screensavers are network-enabled so you can e.g. run firefox in the
+screensaver and browse the web; if you are in an environment where
+screensavers should not have Internet access, you can select 'fr2n' or 'gk2n'
+instead.
 
 I also have tools to install and run these distributions in Microsoft's Windows Subsystem
 for Linux (WSL2). To do this, follow instructions in bin/run_wsl2. You will need to 
