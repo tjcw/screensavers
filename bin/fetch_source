@@ -14,8 +14,13 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 #
-# Fetch the qemu source
+# Fetch the qemu for Windows source
 git clone https://repo.or.cz/qemu/ar7.git
+if [[ ! -d ar7 ]]
+then
+  # repo.or.cz is geo-blocked in the UK. Try an alternate source.
+  git clone git@github.com:stweil/qemu.git
+fi
 # Fetch the inno setup source
 git clone https://github.com/jrsoftware/issrc.git
 # Fetch the rufus source
