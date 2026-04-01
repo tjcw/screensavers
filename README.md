@@ -18,7 +18,9 @@ script bin/do_oi to build a suitable Live Linux iso. To run this,
 you should 'git clone' this repo under ~/eclipse-workspace ; then go to an
 empty directory, and run this script as
 
+```
   sudo ~/eclipse-workspace/screensavers/bin/build_both
+```
 
 For this, you need a Debian testing (forky, 14)  or newer system as a real or virtual machine, or
 under Microsoft Windows WSL2.
@@ -27,9 +29,11 @@ There is an experimental version which should run under Debian derivatives such
 as Ubuntu; for this you also need to clone the live-build and debootstrap repos
 and run with
 
+```
   git clone https://salsa.debian.org/live-team/live-build.git
   git clone https://salsa.debian.org/installer-team/debootstrap.git
   sudo ~/eclipse-workspace/screensavers/bin/build_both_ws1
+```
 
 This results in two 'iso's which can be run in a VM or booted on a real
 system. But I wanted to run it as a screensaver for Windows, so I have
