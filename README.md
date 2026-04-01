@@ -20,7 +20,7 @@ empty directory, and run this script as
 
   sudo ~/eclipse-workspace/screensavers/bin/build_both
 
-For this, you need a Debian 12 or newer system as a real or virtual machine, or
+For this, you need a Debian 13 or newer system as a real or virtual machine, or
 under Microsoft Windows WSL2.
 
 This results in two 'iso's which can be run in a VM or booted on a real
@@ -52,3 +52,7 @@ install a Debian Linux distribution in WSL2, use the script bin/setup_wsl2 to in
 the open source games and/or educational packages, and use bin/run_wsl2 to run the software.
 
 The screensavers can be used as a digital billboard. For this you need to plug in 2 SVG files, one to display on the boot splash screen and one to display on the screensaver wallpaper. The splash screen is at svgs/splash.svg and the wallpaper is at content/common-files/home/user/face . You can use open source 'inkscape' to edit them, or I am told Adobe tooling also works.
+
+Documentation for the screensavers is available here
+https://github.com/tjcw/screensaver-docs or here
+https://gitlab.com/tjcw/screensaver-docs
