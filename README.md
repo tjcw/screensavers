@@ -32,7 +32,7 @@ and run with
 ```
   git clone https://salsa.debian.org/live-team/live-build.git
   git clone https://salsa.debian.org/installer-team/debootstrap.git
-  sudo ~/eclipse-workspace/screensavers/bin/build_both_ws1
+  sudo ~/eclipse-workspace/screensavers/bin/build_both_ws
 ```
 
 This results in two 'iso's which can be run in a VM or booted on a real
