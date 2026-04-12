@@ -18,10 +18,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include <windows.h>
 
 enum { k_Debug = 0 };
 int main(int argc, char **argv) {
   char buffer[1000];
+   ShowWindow(GetConsoleWindow(), SW_HIDE) ;
   if (k_Debug) {
     printf("argv[0] is %s argc is %d\n", argv[0], argc);
     printf("argv[1] is %s\n", argv[1]);
