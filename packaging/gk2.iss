@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "QemuSaver-GamesKnoppix-2"
-#define MyAppVersion "1.7"
+#define MyAppVersion "1.11"
 #define MyAppPublisher "Sourceforge"
 #define MyAppURL "https://sourceforge.net/projects/linux-screensavers-for-windows/"
 
@@ -33,7 +33,7 @@ ArchitecturesInstallIn64BitMode=x64
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "{src}\extras\gk2.iso"; DestDir: "{app}\..\QemuSaver"; Flags: ignoreversion external
+Source: "{src}\gk2.iso"; DestDir: "{app}\..\QemuSaver"; Flags: ignoreversion external
 Source: "{src}\extras\gk2.scr"; DestDir: "{sys}"; Flags: ignoreversion external
 Source: "{src}\extras\gk2n.scr"; DestDir: "{sys}"; Flags: ignoreversion external
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
