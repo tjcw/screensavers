@@ -14,6 +14,8 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 #
+# Fetch the Ventoy source
+git clone https://github.com/ventoy/Ventoy.git
 # Fetch the qemu for Windows source
 git clone https://repo.or.cz/qemu/ar7.git
 if [[ ! -d ar7 ]]
@@ -23,8 +25,6 @@ then
 fi
 # Fetch the inno setup source
 git clone https://github.com/jrsoftware/issrc.git
-# Fetch the rufus source
-git clone https://github.com/pbatard/rufus.git
 # Fetch the source of live-build
 git clone https://salsa.debian.org/live-team/live-build.git
 # Fetch the source of debootstrap
