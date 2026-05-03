@@ -3,7 +3,7 @@
 Scripts and tooling to create Live Linux distributions and turn them into
 screensavers for use on Microsoft Windows systems.
 
-Prebuilt distributions available on the Internet Archive
+Prebuilt distributions are available on the Internet Archive
 [Best so far](https://archive.org/details/linux-screensavers-for-windows)
 [Linux Foundation version](https://archive.org/details/LF-Linux-screensavers-for-Windows)
 [Original 2005 edition](https://archive.org/details/linux-screensavers-for-windows-2005)
