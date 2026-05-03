@@ -3,6 +3,11 @@
 Scripts and tooling to create Live Linux distributions and turn them into
 screensavers for use on Microsoft Windows systems.
 
+Prebuilt distributions available on the Internet Archive
+[Best so far](https://archive.org/details/linux-screensavers-for-windows)
+[Linux Foundation version](https://archive.org/details/LF-Linux-screensavers-for-Windows)
+[Original 2005 edition](https://archive.org/details/linux-screensavers-for-windows-2005)
+
 I was rather taken with freeduc-cd 1.4.1 (still available from
 https://sourceforge.net/projects/ofset/files/freeduc-cd/1.4.1/ )
 and GamesKnoppix ( https://archive.org/details/gamesknoppix )
@@ -14,7 +19,7 @@ distributions nowadays do not recognise the ancient ciphers which were in
 use then.
 
 Then I found the live-build package. I wrote a
-script bin/do_oi to build a suitable Live Linux iso. To run this,
+script bin/do_oi to build a suitable Live Linux iso and a script bin/build_both to wrap this. To run this,
 you should 'git clone' this repo under ~/eclipse-workspace ; then go to an
 empty directory, and run this script as
 
@@ -43,7 +48,9 @@ To use these tools, go to a Microsoft Windows system, install cygwin
 with the 'mingw' compilers (x86_64-w64-mingw32-gcc) and install 
 inno setup from https://jrsoftware.org/isinfo.php . With these and the contents of the 'packaging' directory
 you can build a screensaver wrapper for 'qemu', and a package for
-installation in the usual way for Windows.
+installation in the usual way for Windows. 'jrsoftware' would like you to 
+pay nowadays if you are a for-profit business, but individuals and non-profits
+can use it free with an optional donation.
 
 Then go back to Linux, set up a file tree matching what you see in
 the reference installation package, and use 'zip' to pack it all into
@@ -51,8 +58,11 @@ one file. Then take this to your Windows system and test it.
 
 If you only have a Windows system, the Linux parts of the above instrucitons can be run under WSL2 (Windows Subsystem for Linux Version 2).
 
-The reference zip files are supplied as part of the Sourceforge material at 
-https://sourceforge.net/projects/linux-screensavers-for-windows/files/release1/ . 
+The reference zip files are supplied as part of the 
+[Best so far](https://archive.org/details/linux-screensavers-for-windows)
+but it's more instructive to follow the tutorial here
+https://developer.ibm.com/tutorials/awb-build-linux-dist-as-a-ms-windows-screen-saver/ at least to put in your own business logo instead of the Debian one.
+There is a copy on Sourceforge here https://sourceforge.net/projects/linux-screensavers-for-windows/
 To install these, download them to the target Windows system; unpack them with
 the built-in Windows function to unpack zip files, and run the insttaller
 executables. Then go to the screensaver selection screen and select one of
