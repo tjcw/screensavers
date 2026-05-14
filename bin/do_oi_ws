@@ -24,11 +24,11 @@ if [[ -d /home/${SUDO_USER}/eclipse-workspace/debootstrap ]]
 then
   # Point at debootstrap
   PATH=/home/${SUDO_USER}/eclipse-workspace/debootstrap:$PATH
-  export LB_ARCHITECTURE=amd64
   export DEBOOTSTRAP_DIR=/home/${SUDO_USER}/eclipse-workspace/debootstrap
 fi
 export LB_BOOTAPPEND_LIVE="boot=live components splash noeject"
 lb clean
+#lb config --bootloader syslinux
 lb config --distribution=$2 --chroot-filesystem=ext4
 awk '{ if ( substr($1,1,1) != "#" && substr($1,1,3) != "lib" ) print $1; }' <  /home/${SUDO_USER}/eclipse-workspace/screensavers/lb-package-lists/$1.list.chroot \
    > config/package-lists/desktop.list.chroot

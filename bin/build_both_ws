@@ -30,5 +30,6 @@ rm -f isos/freeduc-trixie.iso isos/gk-trixie.iso
 mkdir -p isos
 export LIVE_BUILD=/home/${SUDO_USER}/eclipse-workspace/live-build
 export PATH=/home/${SUDO_USER}/eclipse-workspace/live-build/frontend:$PATH
+export LB_ARCHITECTURE=amd64
 build_one freeduc-trixie
 build_one gk-trixie
