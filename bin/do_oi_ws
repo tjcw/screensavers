@@ -19,14 +19,14 @@ patch -p1 -N -d /home/${SUDO_USER}/eclipse-workspace/live-build/share/bootloader
 # Set up boot splash
 cp /home/${SUDO_USER}/eclipse-workspace/screensavers/svgs/facesplash.svg /home/${SUDO_USER}/eclipse-workspace/live-build/share/bootloaders/splash.svg
 # Set up face
-mkdir tmp
-(
-   cd tmp
-   tar -xf /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/user-proto.tar
-   cp /home/${SUDO_USER}/eclipse-workspace/screensavers/svgs/facesplash.svg home/user/face
-   tar -cf /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/user.tar .
-)
-rm -fr tmp
+# mkdir tmp
+# (
+#    cd tmp
+#    tar -xf /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/user-proto.tar
+#    cp /home/${SUDO_USER}/eclipse-workspace/screensavers/svgs/facesplash.svg home/user/face
+#    tar -cf /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/user.tar .
+# )
+# rm -fr tmp
 PATH=/sbin:$PATH
 export LB_APT_SECURE=false
 if [[ -d /home/${SUDO_USER}/eclipse-workspace/debootstrap ]]
