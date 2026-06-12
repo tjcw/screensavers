@@ -33,6 +33,7 @@ mkdir tmp
    cp /home/${SUDO_USER}/eclipse-workspace/screensavers/svgs/facesplash.svg face.svg
    tar -cf /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/user.tar .
 )
+rm -fr tmp
 PATH=/sbin:$PATH
 export LB_BOOTAPPEND_LIVE="boot=live components splash noeject"
 lb clean
