@@ -19,7 +19,7 @@ aspell-en
 astrometry.net
 at-spi2-core
 attr
-audacity
+# s390x audacity
 audacity-data
 aumix-common
 # trixie aumix-gtk
@@ -145,7 +145,7 @@ djvulibre-bin
 djvulibre-desktop
 dlint
 dlocate
-dmidecode
+# s390x dmidecode
 dmsetup
 dnsutils
 doc-base
@@ -343,7 +343,7 @@ hostname
 html2text
 hunspell-en-us
 hyphen-pt-pt
-i965-va-driver
+# s390x i965-va-driver
 ibverbs-providers
 icc-profiles-free
 icoutils
@@ -359,7 +359,7 @@ init-system-helpers
 initramfs-tools
 initramfs-tools-core
 install-info
-intel-media-va-driver
+# s390x intel-media-va-driver
 intltool-debian
 iproute2
 isc-dhcp-client
