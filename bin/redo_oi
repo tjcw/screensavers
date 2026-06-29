@@ -18,5 +18,5 @@ PATH=/sbin:$PATH
 for i in $(seq 1 50)
 do
    echo "Build pass $i"
-   [[ -r system-amd64.hybrid.iso ]] || lb build 
+   [[ -r system-*.hybrid.iso ]] || lb build 
 done

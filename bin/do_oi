@@ -50,6 +50,6 @@ lb build ${EXTRA_LB_ARGS}
 for i in $(seq 1 10)
 do
    echo "Build pass $i"
-   [[ -r live-image-amd64.hybrid.iso ]] || lb build ${EXTRA_LB_ARGS}
+   [[ -r live-image-*.hybrid.iso ]] || lb build ${EXTRA_LB_ARGS}
    echo "End build pass $i"
 done
