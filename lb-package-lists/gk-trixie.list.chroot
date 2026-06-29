@@ -1898,9 +1898,9 @@ linux-base
 #linux-compiler-gcc-8-x86
 #linux-headers-4.19.0-6-amd64
 #linux-headers-4.19.0-6-common
-linux-headers
+# s390x linux-headers
 #linux-image-4.19.0-6-amd64
-linux-image
+# s390x linux-image
 #linux-kbuild-4.19
 linux-libc-dev
 lightdm #
@@ -2321,7 +2321,7 @@ wesnoth-music
 wget
 whiptail
 whois
-wine
+# s390x wine
 # s390x wine64
 wipe
 wireless-tools
