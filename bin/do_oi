@@ -47,7 +47,7 @@ cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/$1/. config/cont
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common/. config/content/
 cp -r /home/${SUDO_USER}/eclipse-workspace/screensavers/content/common-files/. config/content-files/
 lb build ${EXTRA_LB_ARGS}
-for i in $(seq 1 10)
+for i in $(seq 1 2)
 do
    echo "Build pass $i"
    [[ -r live-image-*.hybrid.iso ]] || lb build ${EXTRA_LB_ARGS}
