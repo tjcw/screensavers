@@ -2,7 +2,7 @@
 accountwizard
 ace-of-penguins
 acl
-acpi
+# s390x acpi
 adduser
 adwaita-icon-theme
 akonadi-backend-mysql
@@ -24,7 +24,7 @@ at
 at-spi2-core
 # atmel-firmware
 attr
-audacity
+# s390x audacity
 audacity-data
 aumix-common
 # testing aumix-gtk
@@ -128,7 +128,7 @@ distro-info-data
 dkms
 dlint
 dlocate
-dmidecode
+# s390x dmidecode
 dmsetup
 dns-root-data
 dnsutils
@@ -301,7 +301,7 @@ html2text
 hunspell-en-us
 hunt
 # trixie i810switch
-i965-va-driver
+# s390x i965-va-driver
 #ibod
 ibverbs-providers
 # icewm
@@ -320,7 +320,7 @@ initramfs-tools
 initramfs-tools-core
 inputattach
 install-info
-intel-media-va-driver
+# s390x intel-media-va-driver
 intltool-debian
 iproute2
 iptables
@@ -333,7 +333,7 @@ isc-dhcp-common
 iso-codes
 jackd
 jackd2
-jackd2-firewire
+# s390x jackd2-firewire
 java-common
 javascript-common
 jfsutils
@@ -371,9 +371,9 @@ kdegames-mahjongg-data-kf6
 #kdelibs-bin
 #kdelibs5-data
 #kdelibs5-plugins
-kdepim-addons
-kdepim-runtime
-kdepim-themeeditors
+# s390x kdepim-addons
+# s390x kdepim-runtime
+# s390x kdepim-themeeditors
 #kdoctools
 kdoctools5
 keditbookmarks
@@ -385,7 +385,7 @@ messagelib-data
 kfind
 kfloppy
 kget
-khelpcenter
+# s390x khelpcenter
 # trixie khotkeys
 # trixie khotkeys-data
 kimageformat-plugins
@@ -397,7 +397,7 @@ kio-ldap
 #kismet
 klibc-utils
 kmahjongg
-kmail
+# s390x kmail
 kmenuedit
 kmix
 kmod
@@ -405,11 +405,11 @@ kmod
 kobodeluxe
 kobodeluxe-data
 kompare
-konqueror
+# s390x konqueror
 konquest
 konsole
 konsole-kpart
-konsolekalendar
+# s390x konsolekalendar
 kpackagelauncherqml
 kpackagetool5
 # trixie kpart5-kompare
@@ -1898,9 +1898,9 @@ linux-base
 #linux-compiler-gcc-8-x86
 #linux-headers-4.19.0-6-amd64
 #linux-headers-4.19.0-6-common
-linux-headers-amd64
+linux-headers
 #linux-image-4.19.0-6-amd64
-linux-image-amd64
+linux-image
 #linux-kbuild-4.19
 linux-libc-dev
 lightdm #
@@ -1927,7 +1927,7 @@ manpages-dev
 mariadb-common
 #mariadb-server-core-10.3
 mawk
-mbox-importer
+# s390x mbox-importer
 mbr
 mc
 mc-data
@@ -2029,8 +2029,8 @@ phonon-backend-gstreamer-common
 phonon4qt5
 phonon4qt5-backend-vlc
 #pilot-link
-pim-data-exporter
-pim-sieve-editor
+# s390x pim-data-exporter
+# s390x pim-sieve-editor
 pinentry-curses
 pinentry-qt
 pingus
@@ -2192,7 +2192,7 @@ rubygems-integration
 sane-utils
 sash
 screen
-scummvm
+# s390x scummvm
 scummvm-data
 sed
 # trixie sendfile
@@ -2322,7 +2322,7 @@ wget
 whiptail
 whois
 wine
-wine64
+# s390x wine64
 wipe
 wireless-tools
 wodim
