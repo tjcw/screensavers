@@ -28,5 +28,5 @@ function build_one
 stamp="$(date +%Y%m%d-%H%M)"
 rm -f isos/freeduc-trixie.iso isos/gk-trixie.iso
 mkdir -p isos
-build_one freeduc-trixie
 build_one gk-trixie
+build_one freeduc-trixie
