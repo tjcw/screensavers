@@ -21,20 +21,11 @@ function build_one
    mkdir -p "${stamp}/$1" &&
    cd "${stamp}/$1" &&
    /home/${SUDO_USER}/eclipse-workspace/screensavers/bin/do_oi "$1" trixie 
-   ln live-image-amd64.hybrid.iso "../../isos/$1.iso"
+   ln live-image-*.hybrid.iso "../../isos/$1.iso"
   )
 }
 
 stamp="$(date +%Y%m%d-%H%M)"
+rm -f isos/basic.iso
 mkdir -p isos
-una=$(uname -m)
-if [[ "${una)" == "x86_64" ]]
-then
-  rm -f isos/freeduc-trixie.iso isos/gk-trixie.iso
-  build_one freeduc-trixie
-  build_one gk-trixie
-else
-  rm -f isos/freeduc-trixie-${una}.iso isos/gk-trixie-${una}.iso
-  build_one freeduc-trixie-${una}
-  build_one gk-trixie-${una}
-fi
+build_one basic

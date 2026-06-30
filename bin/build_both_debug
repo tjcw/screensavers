@@ -26,10 +26,18 @@ function build_one
 }
 
 stamp="$(date +%Y%m%d-%H%M)"
-rm -f isos/freeduc-trixie.iso isos/gk-trixie.iso
 mkdir -p isos
 export LIVE_BUILD=/home/${SUDO_USER}/eclipse-workspace/live-build
 export PATH=/home/${SUDO_USER}/eclipse-workspace/live-build/frontend:$PATH
 export EXTRA_LB_ARGS="--debug"
-build_one freeduc-trixie
-build_one gk-trixie
+una=$(uname -m)
+if [[ "${una)" == "x86_64" ]]
+then
+  rm -f isos/freeduc-trixie.iso isos/gk-trixie.iso
+  build_one freeduc-trixie
+  build_one gk-trixie
+else
+  rm -f isos/freeduc-trixie-${una}.iso isos/gk-trixie-${una}.iso
+  build_one freeduc-trixie-${una}
+  build_one gk-trixie-${una}
+fi
